@@ -6,4 +6,5 @@ These skills are compiled for multiple developer agents: Antigravity, Cursor, Cl
 
 ## 🛠️ Available Skills
 
+- **[claude-cowork-workflows](./skills/claude-cowork-workflows/README.md)**: Best practices for co-working with Claude (Desktop, Projects, Artifacts) to accelerate programming, code editing, and system design.
 - **[improve-codebase-architecture](./skills/improve-codebase-architecture/README.md)**: How to refactor, format, and structure a codebase that has been cluttered or corrupted by AI-generated boilerplate code (slop).
