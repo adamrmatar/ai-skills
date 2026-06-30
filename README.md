@@ -6,4 +6,4 @@ These skills are compiled for multiple developer agents: Antigravity, Cursor, Cl
 
 ## 🛠️ Available Skills
 
-No skills generated yet.
+- **[improve-codebase-architecture](./skills/improve-codebase-architecture/README.md)**: How to refactor, format, and structure a codebase that has been cluttered or corrupted by AI-generated boilerplate code (slop).

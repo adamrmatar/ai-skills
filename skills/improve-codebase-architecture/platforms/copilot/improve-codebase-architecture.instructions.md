@@ -1,0 +1,47 @@
+# Copilot Instructions: Improve Codebase Architecture
+Description: How to refactor, format, and structure a codebase that has been cluttered or corrupted by AI-generated boilerplate code (slop).
+
+# Improve Codebase Architecture (De-Slop)
+
+Use this skill to refactor, streamline, and restructure files that have become cluttered, bloated, or fragmented by excessive AI-generated boilerplate.
+
+## 🛠️ Step-by-Step Refactoring Workflow
+
+1. **Establish a Baseline**: Run existing unit tests and linters before making any modifications to ensure you don't introduce regressions.
+2. **Identify Slop**: Look for:
+   - Duplicate utility functions or redundant helper modules.
+   - Files containing large blocks of unused imports.
+   - Functions with excessive complexity or unneeded abstraction layers.
+3. **Consolidate and De-duplicate**: Extract duplicate logic into a shared helper module and remove duplicate code paths.
+4. **Simplify Imports**: Group imports logically and prune unused references.
+5. **Verify Changes**: Rerun unit tests and confirm the refactoring did not alter the runtime behavior of the codebase.
+
+
+## Reference Guides
+
+### Core Concepts
+
+# AI Slop Core Concepts
+
+AI-generated code often introduces "slop" due to:
+- Lack of holistic system context (writing individual functions without considering existing codebase utilities).
+- Over-engineering (creating multiple interfaces, abstract classes, or helper functions that replicate basic native behaviors).
+- Copy-paste additions that carry along redundant parameters or dead files.
+
+
+### Practical Guide
+
+# Practical Codebase Clean-up Guide
+
+- **Keep it DRY**: Don't repeat yourself. If a helper function is used in three places, move it to a shared helper library.
+- **Prune dead files**: Clean up temporary scripts, experimental notebooks, or test fixtures that are no longer part of the build pipeline.
+- **Lint consistently**: Use tools like Black, Ruff, or ESLint to enforce styling consistency across the project.
+
+
+### Sources
+
+# Video Sources
+
+The following curated videos were synthesized to create this skill:
+
+1. **[How To De-Slop A Codebase Ruined By AI (with one skill)](https://www.youtube.com/watch?v=3MP8D-mdheA)** by AI Coding
