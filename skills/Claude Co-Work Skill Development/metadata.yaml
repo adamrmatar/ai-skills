@@ -1,0 +1,18 @@
+name: Claude Co-Work Skill Development
+description: A comprehensive skill for developing, testing, and optimizing AI agent
+  skills in Claude Co-Work, covering setup, project configuration, connector integration,
+  and skill engineering best practices.
+keywords:
+- claude
+- co-work
+- skill development
+- AI automation
+- agent skills
+difficulty: intermediate
+prerequisites:
+- basic Claude usage
+- familiarity with AI automation concepts
+sources:
+- title: CLAUDE COWORK FULL COURSE (2+ Hours)
+  channel: Ben AI
+  link: https://www.youtube.com/watch?v=2HyBA-wkWsA

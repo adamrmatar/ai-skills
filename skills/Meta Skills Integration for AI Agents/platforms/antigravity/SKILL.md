@@ -1,0 +1,7 @@
+---
+name: Meta Skills Integration for AI Agents
+description: >-
+  This skill equips AI agents with essential meta skills to enhance performance across various tasks. It includes skills like Process Interviewer, Prompt Master, Humanizer, Fact Checker, Find Skills, Front-End Slides, Decision Toolkit, and MCP Builder. These skills automate complex processes, optimize prompts, ensure human-like outputs, verify facts, discover new skills, create presentations, aid decision-making, and build custom connectors.
+---
+
+meta_skills_integration.md

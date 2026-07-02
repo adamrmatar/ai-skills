@@ -1,0 +1,18 @@
+name: Effective Context Engineering for AI Agents
+description: Learn how to leverage grounding, retrieval-augmented generation (RAG),
+  and context engineering to improve AI accuracy and reliability by providing the
+  right context instead of focusing solely on prompt perfection.
+keywords:
+- context engineering
+- grounding
+- RAG
+- AI accuracy
+- prompt optimization
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI models
+- Familiarity with prompt engineering
+sources:
+- title: Stop perfecting your prompt. Do this instead
+  channel: Jeff Su
+  link: https://www.youtube.com/watch?v=jxHIw_OA8_I

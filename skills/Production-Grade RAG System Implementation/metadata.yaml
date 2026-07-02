@@ -1,0 +1,24 @@
+name: Production-Grade RAG System Implementation
+description: A comprehensive skill for implementing and maintaining Retrieval-Augmented
+  Generation (RAG) systems in production environments, covering architecture design,
+  optimization, and troubleshooting.
+keywords:
+- RAG
+- GenerativeAI
+- AIArchitecture
+- VectorDatabase
+- PromptEngineering
+difficulty: advanced
+prerequisites:
+- Basic understanding of large language models
+- Familiarity with vector embeddings
+- Knowledge of API integrations
+sources:
+- title: 'End-to-End GenAI Architecture Explained (Production System)#GenerativeAI
+    #GenAI #AIArchitecture #RAG'
+  channel: Practical GenAI
+  link: https://www.youtube.com/watch?v=DjnNHNSb5zU
+- title: 'Why RAG Systems Fail in Production (And How to Fix It) #RAG #GenerativeAI
+    #GenAI #AIArchitecture'
+  channel: Practical GenAI
+  link: https://www.youtube.com/watch?v=HXG-0l_fWls

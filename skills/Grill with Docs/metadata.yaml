@@ -1,0 +1,21 @@
+name: Grill with Docs
+description: A skill for AI-assisted development that combines the Grill Me technique
+  with domain-driven design principles to establish and maintain a shared language
+  between the developer and the AI. This skill leverages a context.md file to document
+  shared language and an architectural decision record (ADR) to capture non-obvious
+  decisions, ensuring concise and aligned communication.
+keywords:
+- AI-assisted development
+- domain-driven design
+- shared language
+- context.md
+- ADR
+difficulty: intermediate
+prerequisites:
+- Basic understanding of domain-driven design
+- Familiarity with markdown files
+- Experience with AI-assisted coding
+sources:
+- title: "I stopped using /grill-me for coding. Here\u2019s what I use instead:"
+  channel: Matt Pocock
+  link: https://www.youtube.com/watch?v=6BB6exR8Zd8

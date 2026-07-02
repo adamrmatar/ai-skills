@@ -1,0 +1,21 @@
+name: Implementing an AI Agent Operating System
+description: This skill outlines the steps to design and implement an operating system
+  for AI agents, ensuring efficient resource management, task scheduling, memory handling,
+  access control, and observability.
+keywords:
+- AI management
+- operating system
+- agent scheduling
+- memory management
+- tool management
+- observability
+- guardrails
+difficulty: advanced
+prerequisites:
+- basic understanding of AI agents
+- familiarity with system architecture
+- knowledge of resource management
+sources:
+- title: Why AI Agents Need an Operating System
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=IVGjBxqygmI

@@ -1,0 +1,19 @@
+name: Building Live Artifacts with Claude
+description: This skill enables you to create personalized dashboards with live data
+  pulled from multiple software sources using Claude's live artifacts feature. It
+  covers setup, best practices, pitfalls, and validation steps.
+keywords:
+- live artifacts
+- Claude
+- dashboard
+- data visualization
+- AI insights
+difficulty: intermediate
+prerequisites:
+- Basic familiarity with Claude
+- Understanding of data connectors and MCPs
+- Experience with dashboard creation
+sources:
+- title: Live Artifacts Just 10x'd Claude Cowork (Real Use Cases)
+  channel: Ben AI
+  link: https://www.youtube.com/watch?v=PwLqKIGA25c

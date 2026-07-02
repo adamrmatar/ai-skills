@@ -1,0 +1,20 @@
+name: Automating Tasks with OpenClaw
+description: This skill enables you to automate real-world tasks using OpenClaw, such
+  as responding to sponsorship emails and scheduling meetings. It includes setup instructions,
+  workflow automation, and integration with tools like Gmail, Google Drive, and Telegram.
+keywords:
+- OpenClaw
+- automation
+- Gmail
+- Google Drive
+- Telegram
+- task automation
+difficulty: intermediate
+prerequisites:
+- basic understanding of APIs
+- familiarity with cloud services
+- experience with Telegram
+sources:
+- title: OpenClaw Tutorial
+  channel: codebasics
+  link: https://www.youtube.com/watch?v=dgbdyxe435E

@@ -1,0 +1,19 @@
+name: AI Agent Integration for High-Stakes Systems
+description: A skill for integrating AI agents into high-stakes systems like fraud
+  detection and personalization without replacing existing models, focusing on safe
+  experimentation and infrastructure automation.
+keywords:
+- AI agents
+- fraud detection
+- high-stakes systems
+- Chronon
+- feature engineering
+difficulty: advanced
+prerequisites:
+- machine learning basics
+- feature engineering
+- data pipeline management
+sources:
+- title: Why AI Agents Shouldn't Replace Your Fraud Models
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=HaWk8kAD8ZU

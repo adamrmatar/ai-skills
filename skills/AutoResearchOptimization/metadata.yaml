@@ -1,0 +1,19 @@
+name: AutoResearchOptimization
+description: A skill enabling AI agents to autonomously optimize skills and processes
+  using Karpathy's Auto Research framework. It involves defining criteria, running
+  iterative hypothesis tests, and evaluating outcomes to achieve measurable improvements.
+keywords:
+- Auto Research
+- optimization
+- iterative testing
+- hypothesis evaluation
+- skill improvement
+difficulty: advanced
+prerequisites:
+- Basic understanding of AI agents and workflows
+- Familiarity with Claude Co-worker or Cloud Code
+- Knowledge of defining measurable criteria for optimization
+sources:
+- title: How to use Karpathy's Autoresearch to 10x Claude
+  channel: Ben AI
+  link: https://www.youtube.com/watch?v=bc4NrE0cOE0

@@ -1,0 +1,21 @@
+name: Claude Routine Automation
+description: Automate recurring tasks and event-triggered workflows using Claude's
+  routines, skills, and connectors. This skill enables you to build reliable, autonomous
+  workflows for tasks like payment recovery, churn management, and personalized proposal
+  generation.
+keywords:
+- Claude
+- routines
+- automation
+- skills
+- connectors
+- event-triggered
+- scheduled tasks
+difficulty: intermediate
+prerequisites:
+- basic understanding of Claude
+- familiarity with APIs and webhooks
+sources:
+- title: How to Use Claude Routines Better than 99% of People
+  channel: Ben AI
+  link: https://www.youtube.com/watch?v=LLE6oMh7SxE

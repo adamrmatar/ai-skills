@@ -1,0 +1,21 @@
+name: Agentic Development with Skills
+description: A comprehensive skill for AI agents to perform agentic development tasks
+  including brainstorming, planning, implementation, and review using skills-based
+  workflows.
+keywords:
+- agentic
+- skills
+- development
+- workflow
+- orchestration
+difficulty: intermediate
+prerequisites:
+- basic_prompting.md
+- llm_fundamentals.md
+sources:
+- title: 'The Creator of Superpowers: Why Real Agentic Engineering Beats Vibe Coding'
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=wtzzWyrEY_A
+- title: New Skills! /handoff, /prototype, /review and /writing-* | Skills Changelog
+  channel: Matt Pocock
+  link: https://www.youtube.com/watch?v=DNqsMXH6Eog

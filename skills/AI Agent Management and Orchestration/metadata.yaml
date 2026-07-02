@@ -1,0 +1,21 @@
+name: AI Agent Management and Orchestration
+description: A comprehensive skill for managing and orchestrating AI agents using
+  Claude, focusing on context infrastructure, agent creation, and team synchronization.
+keywords:
+- AI agent management
+- Claude
+- context infrastructure
+- agent orchestration
+- team synchronization
+difficulty: advanced
+prerequisites:
+- basic understanding of AI agents
+- familiarity with Claude
+- knowledge of system thinking
+sources:
+- title: We Replaced Our Entire Team with 30+ Claude AI Agents (Here's How)
+  channel: The AI Productivity Podcast
+  link: https://www.youtube.com/watch?v=aoc_NQfxjy8
+- title: The 7 Levels of Using Claude Context Explained in 24 min
+  channel: Ben AI
+  link: https://www.youtube.com/watch?v=l5Diqeoffa4

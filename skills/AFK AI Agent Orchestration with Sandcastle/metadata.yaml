@@ -1,0 +1,20 @@
+name: AFK AI Agent Orchestration with Sandcastle
+description: A comprehensive skill for setting up and managing autonomous AI coding
+  agents using Sandcastle, a TypeScript library for orchestrating AI agents in isolated
+  sandboxes.
+keywords:
+- ai-agent
+- orchestration
+- sandbox
+- typescript
+- autonomous-coding
+difficulty: intermediate
+prerequisites:
+- basic TypeScript knowledge
+- familiarity with Docker
+- GitHub account with repo access
+- Anthropic API key or Claude subscription
+sources:
+- title: I Open-Sourced My Own AFK Software Factory
+  channel: Matt Pocock
+  link: https://www.youtube.com/watch?v=E5-QK3CDVQM

@@ -1,0 +1,20 @@
+name: AI Task Automation with Genspark Claw
+description: Automate computer tasks using Genspark Claw, including file organization,
+  data processing, email automation, and meeting summaries.
+keywords:
+- task automation
+- Genspark Claw
+- AI workflow
+- file organization
+- data processing
+- email automation
+- meeting summaries
+difficulty: beginner
+prerequisites:
+- Basic understanding of AI tools
+- Familiarity with desktop and cloud computing
+- Basic knowledge of task automation concepts
+sources:
+- title: How to Use Genspark Claw for Beginners (OpenClaw Made Easy)
+  channel: Kevin Stratvert
+  link: https://www.youtube.com/watch?v=UCIjt3v5rqM

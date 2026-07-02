@@ -1,0 +1,20 @@
+name: Agentic AI System Design
+description: A comprehensive skill for designing robust agentic AI systems that avoid
+  common failure modes like infinite loops, hallucinated planning, and unsafe tool
+  use.
+keywords:
+- agentic AI
+- system design
+- failure mitigation
+- infinite loops
+- hallucinated planning
+- unsafe tool use
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with API integrations
+- knowledge of system monitoring
+sources:
+- title: 'Why Agentic AI Fails: Infinite Loops, Planning Errors, and More'
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=D37Ijn2o5U0

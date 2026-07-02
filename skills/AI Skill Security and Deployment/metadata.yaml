@@ -1,0 +1,20 @@
+name: AI Skill Security and Deployment
+description: This skill enables AI agents to securely deploy and manage AI skills
+  by converting narrative-based skills into structured, deterministic programs. It
+  includes methodologies for validating, compiling, and safeguarding skills using
+  the Melia framework.
+keywords:
+- AI security
+- skill deployment
+- Melia framework
+- deterministic programs
+- skill validation
+difficulty: intermediate
+prerequisites:
+- Basic understanding of Python
+- Familiarity with AI agents and LLMs
+- Knowledge of security best practices in AI
+sources:
+- title: AI skills security, Open AI Deployment Company & zero days
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=YCWwh70FZtQ

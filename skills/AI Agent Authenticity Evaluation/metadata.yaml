@@ -1,0 +1,18 @@
+name: AI Agent Authenticity Evaluation
+description: A systematic approach to evaluate whether a product claiming to be an
+  AI agent is truly agentic or just using basic AI/ML capabilities.
+keywords:
+- AI agent evaluation
+- agent authenticity
+- generative AI
+- autonomous systems
+- AI classification
+difficulty: intermediate
+prerequisites:
+- understanding of AI fundamentals
+- basic knowledge of machine learning
+- familiarity with generative AI
+sources:
+- title: Most AI agents are fake (here's a 10-second test)
+  channel: Jeff Su
+  link: https://www.youtube.com/watch?v=p1ak5NfWuEA
