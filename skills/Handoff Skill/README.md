@@ -1,6 +1,6 @@
 # Handoff Skill
 
-The Handoff Skill enables an AI agent to compact the current conversation into a handoff document for another agent to pick up. This ensures seamless continuation of work across different agent sessions.
+Compact the current conversation into a handoff document for another agent to pick up, summarizing the conversation and suggesting next steps.
 
 ## Setup & Installation
 

@@ -1,17 +1,17 @@
 name: Vector Database Integration for Generative AI Systems
-description: Learn how to effectively integrate and utilize vector databases in Generative
-  AI systems to enhance semantic search, reduce hallucinations, and improve scalability.
+description: Learn how to integrate vector databases into generative AI systems for
+  efficient semantic similarity search and context retrieval.
 keywords:
 - vector database
 - generative AI
 - semantic search
-- RAG
 - embeddings
+- RAG
 difficulty: intermediate
 prerequisites:
-- basic understanding of databases
-- familiarity with generative AI concepts
-- knowledge of embeddings
+- basic understanding of generative AI
+- familiarity with embeddings
+- knowledge of database concepts
 sources:
 - title: 'Vector Databases Explained Simply | Why GenAI Needs Them? #VectorDatabase
     #GenerativeAI #GenAI #RAG'

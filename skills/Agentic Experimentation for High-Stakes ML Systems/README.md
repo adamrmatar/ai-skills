@@ -1,6 +1,6 @@
 # Agentic Experimentation For High Stakes Ml Systems
 
-Skill for AI agents to safely and efficiently experiment with feature engineering and model improvements in high-stakes ML systems without disrupting production workflows.
+A skill for AI agents to safely and efficiently experiment with high-stakes ML systems by modifying features, training models, and deploying pipelines in isolated environments while maintaining production integrity.
 
 ## Setup & Installation
 

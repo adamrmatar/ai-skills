@@ -1,6 +1,6 @@
 # Automate Tasks With Genspark Claw
 
-This skill enables you to automate tasks using Genspark Claw, an AI tool that interacts with your computer to complete tasks such as file organization, data analysis, and scheduling.
+Learn how to automate tasks using Genspark Claw, an AI-powered tool that interacts with your computer to complete tasks such as file organization, data analysis, email automation, and meeting summaries.
 
 ## Setup & Installation
 

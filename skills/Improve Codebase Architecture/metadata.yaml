@@ -1,0 +1,20 @@
+name: Improve Codebase Architecture
+description: A systematic approach to refactoring and improving codebase architecture
+  by identifying and deepening shallow modules, improving locality and leverage, and
+  establishing clear seams and interfaces.
+keywords:
+- refactoring
+- codebase architecture
+- deep modules
+- interfaces
+- seams
+- adapters
+difficulty: intermediate
+prerequisites:
+- Basic understanding of software architecture
+- Familiarity with modular programming
+- Experience with code refactoring
+sources:
+- title: How To De-Slop A Codebase Ruined By AI (with one skill)
+  channel: AI Coding
+  link: https://www.youtube.com/watch?v=3MP8D-mdheA

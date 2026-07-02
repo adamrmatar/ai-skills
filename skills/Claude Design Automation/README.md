@@ -1,6 +1,6 @@
 # Claude Design Automation
 
-A systematic approach to generating brand-aligned design assets in Claude Design by pre-establishing design systems, templates, and copy through skills to minimize iterations and token usage.
+A systematic approach to generating brand-aligned design assets (presentations, social media images, websites) in Claude Design with minimal iterations by pre-establishing design systems, templates, and using skills for copy generation.
 
 ## Setup & Installation
 

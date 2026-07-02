@@ -1,16 +1,16 @@
 name: Handoff Skill
-description: The Handoff Skill enables an AI agent to compact the current conversation
-  into a handoff document for another agent to pick up. This ensures seamless continuation
-  of work across different agent sessions.
+description: Compact the current conversation into a handoff document for another
+  agent to pick up, summarizing the conversation and suggesting next steps.
 keywords:
 - handoff
-- document
-- continuity
-- agent collaboration
+- agent
+- context
+- summary
+- transfer
 difficulty: intermediate
 prerequisites:
 - basic understanding of agent workflows
-- file handling in Claude
+- familiarity with temporary file handling
 sources:
 - title: New Skills! /handoff, /prototype, /review and /writing-* | Skills Changelog
   channel: Matt Pocock

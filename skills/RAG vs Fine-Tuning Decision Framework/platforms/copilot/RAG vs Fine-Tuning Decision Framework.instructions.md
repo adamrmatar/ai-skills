@@ -1,185 +1,169 @@
 # Copilot Instructions: Rag Vs Fine Tuning Decision Framework
-Description: A systematic approach to choosing between Retrieval-Augmented Generation (RAG) and fine-tuning for generative AI applications, based on production requirements and data characteristics.
+Description: A comprehensive skill for determining when to use Retrieval-Augmented Generation (RAG) versus fine-tuning in generative AI systems, based on real-world production scenarios.
 
-# RAG vs Fine-Tuning Implementation Skill
+# RAG vs Fine-Tuning Decision Framework
 
 ## Overview
-This skill enables you to systematically choose between RAG and fine-tuning approaches for generative AI applications. Learn the [Core Concepts](references/core_concepts.md) and apply the [Decision Framework](references/decision_framework.md) through concrete steps.
+
+When building generative AI systems, one of the most critical decisions is whether to use Retrieval-Augmented Generation (RAG) or fine-tuning. Both approaches have distinct advantages and are suited for different types of problems. This skill will guide you through the decision-making process, helping you choose the right approach based on your specific needs.
+
+For a deeper understanding of the core concepts, refer to [Core Concepts](references/core_concepts.md).
 
 ## Step-by-Step Workflow
-1. **Requirement Analysis**
-   - Document whether needs are knowledge-based (RAG) or behavior-based (fine-tuning)
-   - Example: "Need answers from HR docs" → RAG; "Need empathetic response format" → fine-tuning
 
-2. **Prototype Construction**
-   ```python
-   # RAG prototype pseudocode
-   def rag_query(question):
-       embeddings = embed_documents(company_docs)
-       relevant_chunks = retrieve_similar(question, embeddings)
-       prompt = f"Answer using only: {relevant_chunks}\n\nQuestion: {question}"
-       return llm.generate(prompt)
-   ```
+1. **Identify the Problem**: Determine whether your problem involves factual, changing, or private information (best for RAG) or patterns, tone, and behavior (best for fine-tuning).
+2. **Evaluate Data Requirements**: Assess if the data is static or frequently updated. RAG is more flexible for frequently changing data.
+3. **Consider Implementation Speed**: RAG is faster to implement and safer for production environments.
+4. **Assess Consistency Needs**: Fine-tuning is necessary when you need consistent behavior that retrieval and prompts cannot guarantee.
+5. **Combine Approaches if Necessary**: Many production systems benefit from using both RAG and fine-tuning. For example, use RAG for retrieving company policies and fine-tuning to ensure responses follow company guidelines.
 
-3. **Behavior Gap Analysis**
-   - Test if prompts alone achieve desired style/format
-   - Example: "Even with perfect context, responses lack our brand voice" → fine-tuning signal
+For practical examples and code snippets, see [Practical Guide](references/practical_guide.md).
 
-4. **Hybrid Implementation** (if needed)
-   ```python
-   # Hybrid architecture example
-   def generate_response(question):
-       # RAG component
-       context = retrieve_company_docs(question)
-       
-       # Fine-tuned model call
-       prompt = build_prompt(context, question, style="brand_voice_v2")
-       return finetuned_llm.generate(prompt)
-   ```
+## Best Practices and Common Pitfalls
 
-## Best Practices
-1. **Start Simple**
-   - 80% of use cases can start with RAG alone (per Practical GenAI findings)
-   - Only add fine-tuning when measurable gaps exist
+- **Best Practice**: Start with RAG for most scenarios due to its flexibility and ease of implementation.
+- **Common Pitfall**: Choosing fine-tuning too early when the real issue is poor retrieval or unclear requirements.
 
-2. **Change Management**
-   - RAG: Update documents → immediate effect
-   - Fine-tuning: Requires retraining pipeline
+For more detailed guidelines and pitfalls, refer to [Common Pitfalls](references/common_pitfalls.md).
 
-3. **Validation**
-   - For RAG: Implement citation checks and hallucination tests
-   - For fine-tuning: Use style adherence metrics
+## Validation and Testing Steps
 
-## Common Pitfalls
-1. **Premature Fine-Tuning**
-   - Mistake: Fine-tuning when better retrieval would suffice
-   - Example: "Our policy answers are wrong" → fix documents first
+1. **Test Retrieval Accuracy**: Ensure the RAG system retrieves the most relevant documents.
+2. **Evaluate Response Consistency**: Check if fine-tuned models consistently follow the desired tone and structure.
+3. **Monitor Performance**: Continuously monitor the system's performance in production to identify any issues.
 
-2. **RAG Overconfidence**
-   - Mistake: Assuming RAG handles style requirements
-   - Example: "Answers are factually correct but sound robotic" → needs fine-tuning
+For code examples and validation techniques, see [Code Examples](references/code_examples.md).
 
-3. **Version Skew**
-   - Risk: Fine-tuned models referencing outdated RAG documents
-   - Solution: Implement joint version control
-
-## Validation Steps
-1. **RAG Validation**
-   - Precision: % of cited content actually relevant
-   - Recall: Can system find all policy variants?
-
-2. **Fine-Tuning Validation**
-   - Style adherence: Human evaluation of tone
-   - Pattern compliance: Automated format checks
-
-3. **Hybrid Validation**
-   - Conflict detection: Does fine-tuning override factual RAG content?
-   - Consistency: Do style rules apply equally across knowledge domains?
-
-For complete implementation details, see the [Practical Guide](references/practical_guide.md).
 
 ## Reference Guides
 
+### Code Examples
+
+# Code Examples
+
+## RAG Implementation
+
+```python
+from transformers import RagTokenizer, RagRetriever, RagTokenForGeneration
+
+# Initialize the tokenizer, retriever, and model
+tokenizer = RagTokenizer.from_pretrained('facebook/rag-token-base')
+retriever = RagRetriever.from_pretrained('facebook/rag-token-base', index_name='custom')
+model = RagTokenForGeneration.from_pretrained('facebook/rag-token-base', retriever=retriever)
+
+# Encode the input question
+input_ids = tokenizer("What is our leave policy?", return_tensors='pt').input_ids
+
+# Generate the answer
+outputs = model.generate(input_ids)
+
+# Decode the output
+answer = tokenizer.decode(outputs[0], skip_special_tokens=True)
+print(answer)
+```
+
+## Fine-Tuning Implementation
+
+```python
+from transformers import Trainer, TrainingArguments, AutoModelForSequenceClassification, AutoTokenizer
+
+# Load pre-trained model and tokenizer
+model = AutoModelForSequenceClassification.from_pretrained('bert-base-uncased')
+tokenizer = AutoTokenizer.from_pretrained('bert-base-uncased')
+
+# Prepare the dataset
+# Assume `train_dataset` and `eval_dataset` are already prepared
+
+# Define training arguments
+training_args = TrainingArguments(
+    output_dir='./results',
+    num_train_epochs=3,
+    per_device_train_batch_size=16,
+    per_device_eval_batch_size=16,
+    warmup_steps=500,
+    weight_decay=0.01,
+    logging_dir='./logs',
+)
+
+# Initialize the Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=eval_dataset,
+)
+
+# Fine-tune the model
+trainer.train()
+```
+
+These code examples provide a starting point for implementing RAG and fine-tuning in your generative AI systems.
+
+
+### Common Pitfalls
+
+# Common Pitfalls
+
+## Choosing Fine-Tuning Too Early
+
+One common mistake is choosing fine-tuning too early. Teams often assume the model needs training when the real issue is poor retrieval or unclear requirements. Fine-tuning should be considered only when you need consistent behavior that retrieval and prompts cannot guarantee.
+
+## Poor Retrieval Accuracy
+
+Another pitfall is poor retrieval accuracy in RAG systems. If the system retrieves irrelevant documents, the model's responses will be inaccurate. Ensure your retrieval system is efficient and accurate. Use vector databases for better performance.
+
+## Overfitting in Fine-Tuning
+
+Overfitting is a common issue in fine-tuning. The model may perform well on the training data but poorly on unseen data. To avoid this, use techniques like cross-validation and regularization.
+
+## Ignoring Monitoring
+
+Ignoring monitoring in production environments can lead to unnoticed issues. Continuously monitor the system's performance to identify and address any problems promptly.
+
+For more detailed guidelines and pitfalls, refer to [Practical Guide](references/practical_guide.md).
+
+
 ### Core Concepts
 
-# Core Concepts: RAG vs Fine-Tuning
+# Core Concepts
 
 ## Retrieval-Augmented Generation (RAG)
-RAG enables language models to access external knowledge at inference time. The system:
-1. Maintains a document store (often as vector embeddings)
-2. Retrieves relevant documents for each query
-3. Passes these documents as context to the LLM
-4. Generates responses grounded in the retrieved content
 
-Key characteristics:
-- Dynamic knowledge: Documents can be updated without model changes
-- Factual grounding: Responses reference specific source material
-- Lower risk: No model modifications required
+RAG allows a language model to use external data at query time. When a user asks a question, the system retrieves relevant documents and passes them to the model as context. The model then generates an answer grounded in that data. This approach is particularly useful for factual, changing, or private information.
 
 ## Fine-Tuning
-Fine-tuning modifies the base model's weights through additional training to:
-1. Adopt specific response patterns
-2. Internalize consistent behaviors
-3. Learn domain-specific language
 
-Key characteristics:
-- Behavioral control: Enforces tone, structure, and style
-- Pattern learning: Captures implicit knowledge not easily prompted
-- Higher commitment: Requires retraining for updates
+Fine-tuning changes the behavior of the model itself. The model is trained further so it consistently responds in a specific way. This is best for patterns, tone, and behavior. Fine-tuning is necessary when you need consistent behavior that retrieval and prompts cannot guarantee.
 
-## When to Combine Both
-Many production systems use RAG for factual retrieval and fine-tuning for response style control, creating systems that are both knowledgeable and consistent with brand voice.
+## Key Differences
 
-### Decision Framework
+- **RAG**: Best for factual, changing, or private information. Faster to implement and safer for production environments.
+- **Fine-Tuning**: Best for patterns, tone, and behavior. Provides more control over the model's responses.
 
-# Decision Framework: RAG or Fine-Tuning?
+Understanding these core concepts is crucial for making informed decisions when building generative AI systems.
 
-## Decision Tree
-Start by answering:
-1. Is the primary need accessing specific documents or data? → RAG
-2. Is the primary need consistent response style/behavior? → Fine-tuning
-3. Do requirements change frequently? → RAG
-4. Is the knowledge proprietary or sensitive? → RAG
-5. Are you enforcing strict dialogue patterns? → Fine-tuning
-
-## Common Patterns
-- Company knowledge bases: RAG
-- Policy chatbots: RAG
-- Branded customer service: Fine-tuning + RAG
-- Creative writing assistants: Fine-tuning
-- Legal/medical applications: RAG with verification
-
-## Implementation Timeline
-RAG projects typically reach production 2-3x faster than fine-tuning solutions. Always:
-1. Prototype with RAG first
-2. Measure gaps in behavior control
-3. Only then consider fine-tuning
-
-## Cost Considerations
-- RAG: Ongoing embedding/retrieval costs
-- Fine-tuning: Upfront training costs + version management
-- Hybrid: Both cost profiles apply
 
 ### Practical Guide
 
-# Practical Implementation Guide
+# Practical Guide
 
-## RAG Implementation Checklist
-1. Document Preparation:
-   - Clean and chunk source materials
-   - Handle sensitive data appropriately
-   - Establish update protocols
+## Real-World Scenarios
 
-2. Retrieval System:
-   - Select embedding model (e.g., OpenAI text-embedding-ada-002)
-   - Choose vector database (Pinecone, Weaviate, etc.)
-   - Set retrieval parameters (top-k, score thresholds)
+### RAG Scenario
 
-3. Generation Layer:
-   - Design context injection templates
-   - Implement citation mechanisms
-   - Build fallback procedures
+Imagine an internal company chatbot. Employees ask questions like, "What is our leave policy? How does the expense approval process work?" This information already exists in documents and policies. Instead of training the model on company data, the system retrieves the relevant documents and passes them to the model. When policies change, you update the documents, not the model.
 
-## Fine-Tuning Preparation
-1. Behavior Specification:
-   - Document required response patterns
-   - Create style guides with examples
-   - Define unacceptable outputs
+### Fine-Tuning Scenario
 
-2. Dataset Creation:
-   - Generate example Q&A pairs
-   - Ensure coverage of edge cases
-   - Maintain validation split
+Imagine a customer support assistant. The company wants responses to follow a specific tone, structure, and style. For example, always start with empathy, use approved phrases, and follow a fixed response format. Prompts alone may not be enough to enforce this consistently. In this case, fine-tuning helps the model learn the desired behavior.
 
-3. Training Setup:
-   - Select base model size
-   - Choose hyperparameters
-   - Plan for version control
+## Implementation Tips
 
-## Hybrid Approach Considerations
-- Separate knowledge updates from behavior updates
-- Monitor for conflicting signals between systems
-- Establish clear ownership boundaries
+- **RAG**: Ensure your retrieval system is efficient and accurate. Use vector databases for better performance.
+- **Fine-Tuning**: Start with a pre-trained model and fine-tune it on a smaller, task-specific dataset. Monitor the model's performance closely.
+
+For code snippets and detailed implementation steps, refer to [Code Examples](references/code_examples.md).
+
 
 ### Sources
 

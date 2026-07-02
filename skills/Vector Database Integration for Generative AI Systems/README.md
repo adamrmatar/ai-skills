@@ -1,6 +1,6 @@
 # Vector Database Integration For Generative Ai Systems
 
-Learn how to effectively integrate and utilize vector databases in Generative AI systems to enhance semantic search, reduce hallucinations, and improve scalability.
+Learn how to integrate vector databases into generative AI systems for efficient semantic similarity search and context retrieval.
 
 ## Setup & Installation
 

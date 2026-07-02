@@ -1,18 +1,17 @@
 name: Claude Design Automation
-description: A systematic approach to generating brand-aligned design assets in Claude
-  Design by pre-establishing design systems, templates, and copy through skills to
-  minimize iterations and token usage.
+description: A systematic approach to generating brand-aligned design assets (presentations,
+  social media images, websites) in Claude Design with minimal iterations by pre-establishing
+  design systems, templates, and using skills for copy generation.
 keywords:
-- claude design
+- claude
 - design automation
 - brand alignment
 - templates
 - design systems
 difficulty: intermediate
 prerequisites:
-- Basic familiarity with Claude Design interface
-- Access to Claude Design in browser/app
-- Brand assets (logos, colors, fonts) or design inspiration sources
+- basic familiarity with Claude interface
+- access to Claude Design feature
 sources:
 - title: How to Actually Use Claude Design Like a Pro (Real Use Cases)
   channel: Ben AI

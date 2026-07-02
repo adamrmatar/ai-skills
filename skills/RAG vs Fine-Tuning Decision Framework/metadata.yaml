@@ -1,18 +1,17 @@
 name: RAG vs Fine-Tuning Decision Framework
-description: A systematic approach to choosing between Retrieval-Augmented Generation
-  (RAG) and fine-tuning for generative AI applications, based on production requirements
-  and data characteristics.
+description: A comprehensive skill for determining when to use Retrieval-Augmented
+  Generation (RAG) versus fine-tuning in generative AI systems, based on real-world
+  production scenarios.
 keywords:
 - RAG
-- fine-tuning
-- generative AI
-- AI production
-- decision framework
+- Fine-Tuning
+- Generative AI
+- AI Production
+- Decision Framework
 difficulty: intermediate
 prerequisites:
-- basic understanding of LLMs
-- familiarity with vector databases
-- knowledge of prompt engineering
+- Understanding of Language Models
+- Basic Knowledge of AI System Design
 sources:
 - title: 'RAG vs Fine-Tuning:What Companies Actually Use #RAG #FineTuning #GenerativeAI
     #GenAI #AIInProduction'

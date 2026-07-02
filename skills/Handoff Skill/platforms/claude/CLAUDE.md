@@ -1,133 +1,162 @@
 # Claude Code Custom Instructions - Handoff Skill
-> The Handoff Skill enables an AI agent to compact the current conversation into a handoff document for another agent to pick up. This ensures seamless continuation of work across different agent sessions.
-
-### Overview
-The Handoff Skill is designed to facilitate the transfer of context and intent from one AI agent to another. This is particularly useful in scenarios where a task needs to be handed off to a different agent for specialized processing or when the context window of the current agent is nearing its limit.
-
-### Step-by-Step Workflow
-1. **Initiate Handoff**: Trigger the handoff process by instructing the agent to create a handoff document.
-2. **Summarize Conversation**: The agent compacts the current conversation into a concise summary.
-3. **Suggest Skills**: The agent suggests relevant skills for the next session based on the context.
-4. **Create Temporary File**: The agent writes the handoff document to a temporary file.
-5. **Read Before Write**: Ensure the file is read before writing to avoid errors in Claude.
-6. **Reference Artifacts**: Avoid duplicating content by referencing existing artifacts by path or URL.
-7. **Tailor Document**: If user arguments are provided, tailor the document to focus on the specified aspects.
-8. **Handoff to New Agent**: Provide the path of the handoff document to the new agent to continue the work.
-
-### Code/Prompt Snippets
-```python
-# Example command to initiate handoff
-handoff_command = "/handoff"
-
-# Example prompt for summarizing conversation
-summary_prompt = "Summarize the current conversation for handoff to another agent."
-
-# Example code snippet for creating a temporary file
-import tempfile
-with tempfile.NamedTemporaryFile(delete=False, prefix='handoff_', suffix='.txt') as temp_file:
-    temp_file.write(summary.encode('utf-8'))
-    handoff_path = temp_file.name
-```
-
-### Best Practices
-- **Clear Summarization**: Ensure the summary captures the essence of the conversation, including context and intent.
-- **Skill Suggestion**: Accurately suggest skills that align with the next session's goals.
-- **File Handling**: Always read the file before writing to avoid errors in Claude.
-- **Artifact Reference**: Reference existing artifacts to avoid redundancy.
-
-### Common Pitfalls
-- **Incomplete Summary**: Failing to capture all relevant details can lead to confusion in the next session.
-- **Incorrect Skill Suggestion**: Suggesting irrelevant skills can derail the next session.
-- **File Handling Errors**: Not reading the file before writing can cause errors in Claude.
-- **Redundant Content**: Duplicating content from existing artifacts can lead to inefficiency.
-
-### Validation Steps
-1. **Review Summary**: Ensure the summary accurately reflects the conversation.
-2. **Check Skill Suggestions**: Verify that the suggested skills are relevant to the next session.
-3. **File Integrity**: Confirm that the handoff document is correctly written and readable.
-4. **Artifact References**: Ensure all referenced artifacts are correctly linked.
-
-### Supporting Reference Docs
-- **Handoff Skill Documentation**: Detailed documentation on the Handoff Skill, including examples and troubleshooting tips.
-- **File Handling in Claude**: A guide on best practices for file handling in Claude to avoid common errors.
-- **Agent Collaboration Workflow**: An overview of workflows involving multiple agents and how the Handoff Skill fits into these workflows.
-
-# Detailed Guidelines
-
-## Agent Collaboration Workflow
-
-# Agent Collaboration Workflow
-
-## Overview
-Agent collaboration workflows involve multiple agents working together on a task. The Handoff Skill plays a crucial role in ensuring seamless transitions between agents.
-
-## Workflow Steps
-1. **Initiate Handoff**: Trigger the handoff process.
-2. **Summarize Conversation**: Compact the current conversation.
-3. **Suggest Skills**: Recommend relevant skills for the next session.
-4. **Create Temporary File**: Write the handoff document to a temporary file.
-5. **Handoff to New Agent**: Provide the path of the handoff document to the new agent.
-
-## Examples
-```python
-# Example command to initiate handoff
-handoff_command = "/handoff"
-
-# Example prompt for summarizing conversation
-summary_prompt = "Summarize the current conversation for handoff to another agent."
-```
-
-## Troubleshooting
-- **Incomplete Summary**: Ensure the summary captures all relevant details.
-- **Incorrect Skill Suggestion**: Verify that the suggested skills are relevant to the next session.
-- **File Handling Errors**: Always read the file before writing to avoid errors in Claude.
-
-## File Handling In Claude
-
-# File Handling in Claude
-
-## Overview
-File handling in Claude requires careful attention to avoid common errors. This guide covers best practices for reading and writing files in Claude.
-
-## Best Practices
-- **Read Before Write**: Always read the file before writing to avoid errors.
-- **Temporary Files**: Use temporary files for handoff documents to ensure they are not kept around unnecessarily.
-
-## Examples
-```python
-import tempfile
-with tempfile.NamedTemporaryFile(delete=False, prefix='handoff_', suffix='.txt') as temp_file:
-    temp_file.write(summary.encode('utf-8'))
-    handoff_path = temp_file.name
-```
-
-## Troubleshooting
-- **File Errors**: Ensure the file is correctly read before writing.
-- **File Integrity**: Confirm that the file is correctly written and readable.
-
-## Handoff Skill Documentation
+> Compact the current conversation into a handoff document for another agent to pick up, summarizing the conversation and suggesting next steps.
 
 # Handoff Skill Documentation
 
 ## Overview
-The Handoff Skill allows an AI agent to compact the current conversation into a handoff document for another agent to pick up. This ensures seamless continuation of work across different agent sessions.
+The Handoff Skill enables smooth transitions between AI agents by creating a temporary summary document. This is particularly useful when:
+- The current context window is becoming too large
+- A different type of agent would be better suited for the next phase
+- You need to parallelize work across multiple agents
 
-## Usage
-To use the Handoff Skill, simply initiate the handoff process by instructing the agent to create a handoff document. The agent will summarize the conversation, suggest relevant skills, and write the document to a temporary file.
+For core concepts, see [Core Concepts](references/core_concepts.md).
 
-## Examples
-```python
-# Example command to initiate handoff
-handoff_command = "/handoff"
+## Step-by-Step Workflow
+1. **Initiate Handoff**: Trigger the skill with `/handoff` or `/handoff "focus description"` if you want to specify the next session's focus.
+2. **Document Creation**: The agent will:
+   - Summarize the current conversation
+   - Capture the current state of work
+   - Suggest next steps and recommended skills
+   - Reference relevant artifacts
+3. **File Handling**: The document is saved to a temporary location (see [Practical Guide](references/practical_guide.md) for details).
+4. **Transfer**: The path to the document is provided for use in a new agent session.
+5. **Continuation**: The new agent loads the handoff document and continues the work.
 
-# Example prompt for summarizing conversation
-summary_prompt = "Summarize the current conversation for handoff to another agent."
+## Best Practices
+1. **Content Selection**:
+   - Focus on key decisions and current state
+   - Avoid duplicating content available in other artifacts
+   - Include enough context for effective continuation
+2. **Skill Suggestions**:
+   - Recommend skills that match the next phase of work
+   - Consider the 'vibe' of the current session
+3. **Temporary Nature**:
+   - Remember these are transitional documents
+   - Important information should be saved elsewhere
+
+## Common Pitfalls
+1. **Over-summarizing**: Losing important nuances in the handoff
+2. **Under-summarizing**: Creating documents that are too verbose
+3. **Missing References**: Forgetting to link to relevant artifacts
+4. **Skill Mismatch**: Suggesting inappropriate skills for continuation
+
+## Validation Steps
+1. **Content Check**: Verify the document contains:
+   - Clear summary
+   - Current state
+   - Next steps
+   - Skill suggestions
+   - Artifact references
+2. **File Check**: Confirm the file exists at the specified path
+3. **Continuation Test**: Start a new agent with the document and verify it can continue the work effectively
+
+For complete code examples and templates, see [Code Examples](references/code_examples.md).
+
+# Detailed Guidelines
+
+## Code Examples
+
+# Code Examples and Templates
+
+## Basic Handoff Command
+```
+/handoff
+```
+This creates a standard handoff document summarizing the current conversation.
+
+## Focused Handoff with Arguments
+```
+/handoff "Continue with the prototype implementation focusing on the user authentication flow"
+```
+The argument becomes the focus description for the next agent.
+
+## Handoff Document Structure Example
+```markdown
+# Handoff Document
+
+## Conversation Summary
+[Brief summary of key points from the conversation]
+
+## Current State
+[Description of where the work currently stands]
+
+## Suggested Next Steps
+1. [First recommended action]
+2. [Second recommended action]
+3. [Etc.]
+
+## Recommended Skills
+- /prototype
+- /grill
+- /implement
+
+## Artifact References
+- [path/to/relevant/file1]
+- [path/to/relevant/file2]
 ```
 
-## Troubleshooting
-- **Incomplete Summary**: Ensure the summary captures all relevant details.
-- **File Handling Errors**: Always read the file before writing to avoid errors in Claude.
-- **Redundant Content**: Reference existing artifacts to avoid duplication.
+## File Handling Pseudocode
+```python
+def create_handoff(content):
+    temp_dir = get_temp_directory()
+    file_path = os.path.join(temp_dir, 'mic_temp_t_handoff.md')
+    
+    # Claude requires reading before writing
+    if os.path.exists(file_path):
+        with open(file_path, 'r') as f:
+            existing_content = f.read()
+    
+    with open(file_path, 'w') as f:
+        f.write(content)
+    
+    return file_path
+```
+
+## Core Concepts
+
+# Core Concepts of Handoff Skill
+
+The Handoff Skill is designed to facilitate seamless transitions between AI agents by creating a temporary document that captures the essence of the current conversation. This document serves as a bridge, allowing a fresh agent to continue work without losing context.
+
+Key concepts:
+1. **Temporary Nature**: The handoff document is not meant for long-term storage. It exists in a temporary directory with a standardized naming convention (e.g., mic_temp_t_handoff).
+2. **Context Preservation**: The document must capture not just the content, but also the 'vibe' and intent of the original conversation.
+3. **Skill Suggestion**: The handoff should recommend which skills the next agent should use to continue the work effectively.
+4. **Artifact Referencing**: Instead of duplicating content, the handoff should reference existing artifacts by path or URL.
+5. **Argument Handling**: If the user provides arguments, these should be treated as focus areas for the next session and the document should be tailored accordingly.
+
+Example Use Cases:
+- Moving from a planning session to implementation
+- Transitioning between different types of work (e.g., from design to coding)
+- Creating sub-agent workflows where specialized agents handle specific tasks
+
+## Practical Guide
+
+# Practical Guide to Using Handoff Skill
+
+## When to Use Handoff
+1. **Context Window Management**: When you're approaching context window limits in a long-running session.
+2. **Specialization Needs**: When a different type of agent would be better suited for the next phase of work.
+3. **Parallel Workflows**: When you need to split work between multiple agents working simultaneously.
+
+## Implementation Details
+1. **File Handling**: The skill creates files in a temporary directory. Ensure your system has proper permissions for this location.
+2. **Content Structure**: The handoff document should include:
+   - Conversation summary
+   - Current state of work
+   - Suggested next steps
+   - Recommended skills for continuation
+   - References to any relevant artifacts
+3. **Error Handling**: Some AI models (like Claude) require reading a file before writing to it. The skill includes this as a necessary step.
+
+## Common Patterns
+1. **Fire-and-Forget**: When you need to quickly spin up a new agent to handle a specific task without maintaining the original context.
+2. **DIY Sub-Agent**: When you want to maintain control over a sub-process while giving it full context window capacity.
+
+## Best Practices
+- Keep handoff documents concise but comprehensive
+- Clearly mark transitions between different phases of work
+- Include enough context for the next agent to be effective, but avoid unnecessary duplication
 
 ## Sources
 

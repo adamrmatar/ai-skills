@@ -1,6 +1,6 @@
 # Ai Agent Operating System Management
 
-This skill outlines the essential components and workflows for managing AI agents using an operating system framework, ensuring efficient, reliable, and secure operations.
+A comprehensive skill for managing AI agents through an operating system that handles scheduling, memory, tools, identity, observability, and guardrails to ensure reliable and efficient operation.
 
 ## Setup & Installation
 
