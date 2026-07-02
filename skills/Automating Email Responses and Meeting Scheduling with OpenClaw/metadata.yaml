@@ -1,23 +1,19 @@
 name: Automating Email Responses and Meeting Scheduling with OpenClaw
-description: This skill enables an AI agent to automate email responses and meeting
-  scheduling using OpenClaw, a digital assistant platform. The agent will learn to
-  set up OpenClaw on a VPS, configure integrations with Gmail, Google Drive, and Google
-  Calendar, and execute workflows for responding to sponsorship emails and scheduling
-  meetings.
+description: A comprehensive skill for setting up OpenClaw as a digital assistant
+  to automate email responses and meeting scheduling, including integration with Gmail,
+  Google Drive, and Google Calendar.
 keywords:
 - OpenClaw
-- automation
-- email
+- email automation
 - meeting scheduling
-- VPS
-- Gmail
-- Google Drive
+- Gmail integration
 - Google Calendar
+- digital assistant
 difficulty: intermediate
 prerequisites:
-- basic understanding of cloud servers
+- basic understanding of VPS
 - familiarity with Gmail and Google Calendar
-- basic knowledge of Telegram
+- basic command line knowledge
 sources:
 - title: OpenClaw Tutorial
   channel: codebasics
