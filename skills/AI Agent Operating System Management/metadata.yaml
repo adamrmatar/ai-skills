@@ -1,0 +1,20 @@
+name: AI Agent Operating System Management
+description: This skill outlines the essential components and workflows for managing
+  AI agents using an operating system framework, ensuring efficient, reliable, and
+  secure operations.
+keywords:
+- AI Management
+- Operating System
+- Agent Scheduling
+- Memory Management
+- Tool Management
+- Observability
+- Guardrails
+difficulty: Intermediate
+prerequisites:
+- Basic understanding of AI agents
+- Familiarity with system architecture
+sources:
+- title: Why AI Agents Need an Operating System
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=IVGjBxqygmI

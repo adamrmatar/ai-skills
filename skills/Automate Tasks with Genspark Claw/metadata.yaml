@@ -1,0 +1,18 @@
+name: Automate Tasks with Genspark Claw
+description: This skill enables you to automate tasks using Genspark Claw, an AI tool
+  that interacts with your computer to complete tasks such as file organization, data
+  analysis, and scheduling.
+keywords:
+- automation
+- Genspark Claw
+- task scheduling
+- file organization
+- data analysis
+difficulty: intermediate
+prerequisites:
+- basic computer skills
+- familiarity with AI tools
+sources:
+- title: How to Use Genspark Claw for Beginners (OpenClaw Made Easy)
+  channel: Kevin Stratvert
+  link: https://www.youtube.com/watch?v=UCIjt3v5rqM

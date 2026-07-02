@@ -1,0 +1,19 @@
+name: Agentic Experimentation for High-Stakes ML Systems
+description: Skill for AI agents to safely and efficiently experiment with feature
+  engineering and model improvements in high-stakes ML systems without disrupting
+  production workflows.
+keywords:
+- mlops
+- feature engineering
+- agentic workflows
+- fraud detection
+- model experimentation
+difficulty: advanced
+prerequisites:
+- Understanding of ML feature pipelines
+- Familiarity with production ML systems
+- Knowledge of feature stores
+sources:
+- title: Why AI Agents Shouldn't Replace Your Fraud Models
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=HaWk8kAD8ZU
