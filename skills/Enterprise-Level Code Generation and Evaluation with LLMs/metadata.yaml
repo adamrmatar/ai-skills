@@ -1,0 +1,18 @@
+name: Enterprise-Level Code Generation and Evaluation with LLMs
+description: A skill for generating enterprise-ready code using LLMs, evaluating its
+  quality, and ensuring it meets security, maintainability, and reliability standards.
+keywords:
+- LLM
+- code generation
+- enterprise code
+- SonarQube
+- code evaluation
+difficulty: advanced
+prerequisites:
+- Basic understanding of LLMs and their applications in code generation
+- Familiarity with enterprise software development practices
+- Knowledge of code evaluation tools like SonarQube
+sources:
+- title: "Can LLMs generate Enterprise Quality Code? \u2014 Prasenjit Sarkar, Sonar"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=NuePCNMpWGc

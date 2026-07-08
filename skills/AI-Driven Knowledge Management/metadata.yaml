@@ -1,0 +1,17 @@
+name: AI-Driven Knowledge Management
+description: Transform traditional filing systems into dynamic, AI-driven knowledge
+  repositories that continuously ingest, synthesize, and reason about organizational
+  knowledge.
+keywords:
+- knowledge management
+- AI synthesis
+- data integration
+- contextual reasoning
+difficulty: intermediate
+prerequisites:
+- basic understanding of APIs
+- familiarity with knowledge management systems
+sources:
+- title: 'The death of the filing cabinet #ai #tech'
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=59NCmQ3hxz4

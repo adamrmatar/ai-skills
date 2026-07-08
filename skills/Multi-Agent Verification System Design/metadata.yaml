@@ -1,0 +1,19 @@
+name: Multi-Agent Verification System Design
+description: Design and implement a multi-agent AI system for high-stakes decision
+  making with built-in verification and redundancy mechanisms to prevent hallucinations
+  and ensure reliability.
+keywords:
+- multi-agent
+- verification
+- high-stakes
+- redundancy
+- hallucination-prevention
+difficulty: advanced
+prerequisites:
+- Understanding of AI agent architectures
+- Prompt engineering fundamentals
+- Risk assessment methodologies
+sources:
+- title: "Multi AI Agent Systems: When One AI Brain Isn\u2019t Enough"
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=kYkZI3oj2W4

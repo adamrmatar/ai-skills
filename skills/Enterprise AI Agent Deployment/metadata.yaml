@@ -1,0 +1,19 @@
+name: Enterprise AI Agent Deployment
+description: A systematic approach to deploying AI agents within enterprise environments
+  to accelerate knowledge synthesis, cross-team collaboration, and institutional knowledge
+  management.
+keywords:
+- enterprise
+- deployment
+- knowledge synthesis
+- onboarding
+- institutional knowledge
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI agent architectures
+- Enterprise IT infrastructure knowledge
+- API integration skills
+sources:
+- title: 'This is how AI agents actually take over enterprises #ai #business #tech'
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=KWCZWFDOapk

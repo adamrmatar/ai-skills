@@ -1,0 +1,19 @@
+name: Building Role-Based Access Control (RBAC) Applications with AI
+description: A systematic approach to building RBAC applications using AI for initial
+  scaffolding and visual editors for refinement, focusing on permission models, database
+  relationships, and workflow automation.
+keywords:
+- RBAC
+- AI development
+- permission models
+- database design
+- workflow automation
+difficulty: intermediate
+prerequisites:
+- basic understanding of database relationships
+- familiarity with role-based access control concepts
+- experience with visual development tools
+sources:
+- title: 'Role-Based Access Control: How to Build an RBAC App with AI'
+  channel: AI Master
+  link: https://www.youtube.com/watch?v=OFO8r0-EgyY

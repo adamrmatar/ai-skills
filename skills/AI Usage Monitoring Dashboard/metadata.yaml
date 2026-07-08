@@ -1,0 +1,19 @@
+name: AI Usage Monitoring Dashboard
+description: Build a dashboard to monitor and analyze your AI token usage across different
+  models (Codex, Claude, ChatGPT) to optimize workflows and improve productivity.
+keywords:
+- token monitoring
+- AI analytics
+- productivity dashboard
+- Codex
+- Claude
+- ChatGPT
+difficulty: intermediate
+prerequisites:
+- basic API usage
+- data visualization concepts
+- access to AI model APIs
+sources:
+- title: My Codex Ran 800 Million Tokens in A Day. The Real Story Isn't Cost.
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=l8BloTSLK6M

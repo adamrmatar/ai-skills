@@ -1,0 +1,18 @@
+name: ai_agent_management
+description: Comprehensive skill for managing AI agents using control planes, observability,
+  and optimization techniques.
+keywords:
+- AI agent management
+- control plane
+- observability
+- optimization
+- AgentOps
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with Kubernetes concepts
+- knowledge of software development lifecycle (SDLC)
+sources:
+- title: "Agent control planes & OpenAI model solves Erd\u0151s"
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=wVdivlahcm0

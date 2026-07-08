@@ -1,0 +1,20 @@
+name: Architecting Modern AI Systems
+description: This skill provides a comprehensive guide to architecting modern AI systems,
+  focusing on platforms, agents, integrations, and governance. It includes best practices
+  for deploying AI agents, managing tokenomics, and ensuring system reliability and
+  scalability.
+keywords:
+- AI systems
+- platforms
+- agents
+- tokenomics
+- governance
+difficulty: advanced
+prerequisites:
+- basic understanding of AI
+- familiarity with cloud computing
+- knowledge of machine learning
+sources:
+- title: Architecting Modern AI Systems
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=hWYhSF6kYEs

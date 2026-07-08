@@ -1,0 +1,19 @@
+name: Thermonuclear Code Quality Review
+description: A strict, ambitious code review skill focused on structural improvements,
+  maintainability, and eliminating complexity through aggressive refactoring and code
+  judo moves.
+keywords:
+- code review
+- refactoring
+- maintainability
+- code quality
+- TypeScript
+difficulty: advanced
+prerequisites:
+- Understanding of code architecture
+- Familiarity with TypeScript/JavaScript
+- Experience with code review processes
+sources:
+- title: Can Cursor's HARDCORE Review Skill Stop The Slop?
+  channel: Matt Pocock
+  link: https://www.youtube.com/watch?v=mh5XZ-L5SFQ

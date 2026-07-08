@@ -1,0 +1,18 @@
+name: AI Agent Workflow Execution
+description: A comprehensive skill for AI agents to perform complex tasks by perceiving,
+  reasoning, acting, and learning in iterative cycles with optional human oversight.
+keywords:
+- agentic AI
+- workflow execution
+- task decomposition
+- academic research
+- iterative refinement
+difficulty: intermediate
+prerequisites:
+- basic prompt engineering
+- API integration knowledge
+- task decomposition understanding
+sources:
+- title: What Is Agentic AI? AI Agents and the Revolution That Changes Everything
+  channel: Andy Stapleton
+  link: https://www.youtube.com/watch?v=fOfy-OsKWf4

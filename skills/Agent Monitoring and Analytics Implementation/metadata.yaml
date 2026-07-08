@@ -1,0 +1,19 @@
+name: Agent Monitoring and Analytics Implementation
+description: Implement comprehensive monitoring and analytics for AI agents to track
+  runs, detect failures, and improve trust through actionable insights.
+keywords:
+- agent analytics
+- monitoring
+- telemetry
+- observability
+- agent runs
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with analytics platforms
+- knowledge of API integrations
+sources:
+- title: A Cursor Agent Wiped a Database in 9 Seconds. Agent Analytics Would Have
+    Seen It Coming.
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=n0nC1kmztSk

@@ -1,0 +1,17 @@
+name: AI Agent Workflow Automation with Google Gemini
+description: Implement autonomous AI agents using Google Gemini's Spark feature to
+  automate multi-step workflows, handle multimodal inputs, and execute scheduled tasks.
+keywords:
+- Gemini
+- AI agents
+- workflow automation
+- Spark
+- Omni model
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI assistants
+- Familiarity with Google Gemini interface
+sources:
+- title: "Google Gemini\u2019s Biggest Update Yet: AI Agents, Omni AI, and Smart Glasses"
+  channel: Kevin Stratvert
+  link: https://www.youtube.com/watch?v=GiqyqBKmAfA

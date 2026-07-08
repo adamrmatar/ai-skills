@@ -1,0 +1,20 @@
+name: Decision-Aware AI Agent Framework
+description: A comprehensive framework for building decision-aware AI agents using
+  context graphs, memory, and reasoning capabilities to enhance decision-making processes.
+keywords:
+- AI agent
+- decision-making
+- context graph
+- memory
+- reasoning
+- Neo4j
+difficulty: advanced
+prerequisites:
+- basic knowledge of AI agents
+- understanding of graph databases
+- familiarity with Neo4j
+sources:
+- title: "Context Graphs for Explainable, Decision-Aware AI Agents \u2014 Andreas\
+    \ Kollegger & Zaid Zaim, Neo4j"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=abvQEhvRI_c

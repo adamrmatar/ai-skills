@@ -1,0 +1,19 @@
+name: Invoice Processing Automation
+description: An AI agent skill for end-to-end invoice processing automation using
+  Cloud Code, Gmail, Slack, and QuickBooks Online with two implementation approaches
+  (native connectors vs Zapier integration).
+keywords:
+- invoice processing
+- business automation
+- Cloud Code
+- QuickBooks
+- Zapier
+difficulty: intermediate
+prerequisites:
+- Basic understanding of business workflows
+- Familiarity with cloud-based tools
+- Access to QuickBooks Online account
+sources:
+- title: This AI Agent Handles Your Invoices End to End
+  channel: codebasics
+  link: https://www.youtube.com/watch?v=Ppy4oAzYreI

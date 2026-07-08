@@ -1,0 +1,21 @@
+name: Multimodal AI Interaction with Gemini 3.5 Flash
+description: Master the use of Gemini 3.5 Flash for multimodal AI tasks, including
+  image analysis, video understanding, document processing, and structured data extraction.
+  Learn best practices, pitfalls, and workflows to maximize efficiency and accuracy.
+keywords:
+- multimodal AI
+- Gemini 3.5 Flash
+- image analysis
+- video understanding
+- document processing
+- structured data extraction
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI models
+- Familiarity with Google Workspace tools
+- Experience with JSON and Python
+sources:
+- title: "NEW Gemini Features Explained \u2014 How to Use Google\u2019s Latest AI\
+    \ Upgrade"
+  channel: AI Master
+  link: https://www.youtube.com/watch?v=kn9Gh5HWqQs

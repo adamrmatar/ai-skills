@@ -1,0 +1,19 @@
+name: AI Model Training with Task Fidelity Scaling
+description: A skill for training AI models using high-quality tasks that adhere to
+  strict fidelity criteria, ensuring meaningful model improvement and clean failure
+  modes.
+keywords:
+- AI training
+- task quality
+- RL training
+- data quality
+- benchmarking
+difficulty: intermediate
+prerequisites:
+- basic understanding of reinforcement learning
+- familiarity with AI model training pipelines
+- knowledge of task benchmarking
+sources:
+- title: "Task Fidelity Scaling Laws \u2014 Kobie Crawdord, Snorkel"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=YYH0DMQr30A

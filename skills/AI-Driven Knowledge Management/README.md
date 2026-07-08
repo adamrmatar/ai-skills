@@ -1,0 +1,22 @@
+# Ai Driven Knowledge Management
+
+Transform traditional filing systems into dynamic, AI-driven knowledge repositories that continuously ingest, synthesize, and reason about organizational knowledge.
+
+## Setup & Installation
+
+This skill is agent-agnostic and packaged for multiple developer agents. Find your target platform below:
+
+### 💻 Antigravity
+_Copy the contents of `platforms/antigravity/` to `~/.gemini/config/skills/AI-Driven Knowledge Management/`._
+
+### 💻 Cursor
+_Copy `platforms/cursor/AI-Driven Knowledge Management.mdc` to your project's `.cursor/rules/` directory._
+
+### 💻 Claude
+_Append the contents of `platforms/claude/CLAUDE.md` to the target project's `CLAUDE.md` file._
+
+### 💻 Copilot
+_Copy `platforms/copilot/AI-Driven Knowledge Management.instructions.md` to your project's `.github/instructions/` directory._
+
+### 💻 Windsurf
+_Append the contents of `platforms/windsurf/.windsurfrules` to the target project's `.windsurfrules` file._

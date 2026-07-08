@@ -1,0 +1,19 @@
+name: Code Comprehension with AI
+description: A systematic approach to using AI for understanding complex codebases,
+  inspired by Priscila Andre de Oliveira's workflow at Sentry. Focuses on comprehension
+  over generation, with structured exploration modes and prompt engineering techniques.
+keywords:
+- code comprehension
+- prompt engineering
+- large codebases
+- AI-assisted development
+- Claude
+difficulty: intermediate
+prerequisites:
+- Basic familiarity with codebases and version control
+- Experience with AI chat interfaces
+- Understanding of software architecture concepts
+sources:
+- title: "The AI Skill I Rely On Daily \u2014 Priscila Andre de Oliveira, Sentry"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=li0SaBt9RDM
