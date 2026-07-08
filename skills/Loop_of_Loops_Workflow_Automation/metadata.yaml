@@ -1,0 +1,16 @@
+name: Loop_of_Loops_Workflow_Automation
+description: Automate recurring tasks by creating interconnected loops that manage
+  workflows, share context, and reduce mental load.
+keywords:
+- workflow automation
+- loop of loops
+- AI agents
+- task management
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI prompting
+- familiarity with task automation
+sources:
+- title: I Stopped Prompting AI One Task At A Time. This Works Better.
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=A4zMyjkL0Dc

@@ -1,0 +1,17 @@
+name: AI Agent Management and Local Model Deployment
+description: Learn how to design, manage, and deploy AI agents effectively, including
+  setting up local AI models for privacy, cost, and latency-sensitive workflows.
+keywords:
+- AI agent management
+- local AI models
+- prompt engineering
+- Ollama
+- LM Studio
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI models
+- familiarity with prompt engineering
+sources:
+- title: "\"Learn AI\u201D Is Bad Advice. Learn This Instead"
+  channel: Greg Isenberg
+  link: https://www.youtube.com/watch?v=jJIOA4GroBw

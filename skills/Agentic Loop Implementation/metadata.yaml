@@ -1,0 +1,16 @@
+name: Agentic Loop Implementation
+description: Implement autonomous agentic loops for binary decision tasks, with safeguards
+  for non-binary scenarios requiring human review.
+keywords:
+- agentic loops
+- autonomous prompting
+- binary tasks
+- self-review systems
+difficulty: intermediate
+prerequisites:
+- basic prompting skills
+- understanding of feedback loops
+sources:
+- title: "Agentic Loops the future of prompting? I\u2019ll break it down in 60s."
+  channel: Greg Isenberg
+  link: https://www.youtube.com/watch?v=ytO3bJWofmw

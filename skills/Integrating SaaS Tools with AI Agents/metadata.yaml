@@ -1,0 +1,21 @@
+name: Integrating SaaS Tools with AI Agents
+description: A comprehensive skill for integrating SaaS tools using AI agents, focusing
+  on workflow automation, chatbot creation, and best practices for seamless SaaS tool
+  integration.
+keywords:
+- SaaS
+- AI Agents
+- Workflow Automation
+- Chatbot
+- Integration
+difficulty: intermediate
+prerequisites:
+- basic understanding of SaaS tools
+- familiarity with AI agents
+sources:
+- title: How AI Connects SaaS Tools
+  channel: AI Agents Podcast
+  link: https://www.youtube.com/watch?v=28PdbGX-C6g
+- title: How to Build an AI Website Chatbot
+  channel: AI Agents Podcast
+  link: https://www.youtube.com/watch?v=mPU1oM1ucUU

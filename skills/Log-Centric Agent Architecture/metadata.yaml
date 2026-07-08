@@ -1,0 +1,18 @@
+name: Log-Centric Agent Architecture
+description: Implement and manage AI agents where the log is the primary source of
+  truth, enabling durability, scalability, and ownership.
+keywords:
+- agent architecture
+- log-based systems
+- durable state
+- agent ownership
+- scalability
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with event logs
+- experience with distributed systems
+sources:
+- title: The Log Is The Agent - Ishaan Sehgal, Omnara
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=UPwGaM2MKHY

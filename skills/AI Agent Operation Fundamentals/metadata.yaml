@@ -1,0 +1,19 @@
+name: AI Agent Operation Fundamentals
+description: 'Master the five core components of modern AI agent systems: agents.md
+  configuration, agent skills, MCP for tool integration, A2A for agent coordination,
+  and subagent management.'
+keywords:
+- AI agent
+- agents.md
+- MCP
+- A2A
+- subagents
+- agent skills
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with markdown files
+sources:
+- title: 5 AI Agent Terms You Need to Know
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=k5jYwyhDMxA

@@ -1,0 +1,19 @@
+name: Claude Cowork Workflow Automation
+description: A comprehensive skill for automating daily workflows using Claude Cowork,
+  including email triage, content creation, research, and dashboard generation.
+keywords:
+- workflow automation
+- Claude Cowork
+- email triage
+- content creation
+- research automation
+- dashboard generation
+difficulty: intermediate
+prerequisites:
+- basic familiarity with Claude Cowork
+- access to Claude Cowork Pro or Max plan
+- Gmail account for email automation
+sources:
+- title: 6 INSANE Claude Cowork Use Cases to Save Hours (AI Workflow Automation)
+  channel: AI Master
+  link: https://www.youtube.com/watch?v=skU1-k7_wWE

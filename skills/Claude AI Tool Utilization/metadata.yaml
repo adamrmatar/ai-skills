@@ -1,0 +1,20 @@
+name: Claude AI Tool Utilization
+description: A comprehensive skill for utilizing Claude AI across various use cases
+  including trip planning, document analysis, financial decision-making, file organization,
+  and Chrome extension development.
+keywords:
+- Claude AI
+- trip planning
+- document analysis
+- financial decision-making
+- file organization
+- Chrome extension
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI tools
+- Familiarity with Google Drive and local file systems
+- Basic knowledge of financial concepts
+sources:
+- title: Claude Tutorial for Beginners | Claude Tutorial for Non technical People
+  channel: codebasics
+  link: https://www.youtube.com/watch?v=eHS0WIWNtu0

@@ -1,0 +1,19 @@
+name: AI Agent Coordination in Real-World Workflows
+description: A skill for designing and implementing AI agents that effectively coordinate
+  across multiple systems while adhering to policies, managing exceptions, and maintaining
+  human oversight in real-world workflows.
+keywords:
+- coordination
+- workflow orchestration
+- policy enforcement
+- human-in-the-loop
+- exception handling
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with workflow systems
+- knowledge of policy-based access control
+sources:
+- title: Building AI Agents for Real-World Problems & Workflows
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=4Vg2aVtrX8k

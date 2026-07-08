@@ -1,0 +1,22 @@
+name: AI Agent Development and Observability
+description: A comprehensive skill for developing, deploying, and monitoring AI agents
+  in production, focusing on observability, sandboxing, and agent-to-agent communication.
+keywords:
+- AI agents
+- observability
+- sandboxing
+- agent-to-agent communication
+- production deployment
+difficulty: advanced
+prerequisites:
+- Basic understanding of AI and machine learning
+- Familiarity with software development lifecycle
+- Knowledge of observability tools and practices
+sources:
+- title: 'Logs Are All You Need: Rethinking Observability with AI Agents'
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=RSs0PDsULJM
+- title: 'Agents in Production: How OpenGov Built and Scaled OG Assist - Gabe De Mesa,
+    OpenGov'
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=4uFVSLgD2Q4

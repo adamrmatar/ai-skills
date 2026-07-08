@@ -1,0 +1,22 @@
+name: Building AI Agents with Design Systems and Python
+description: A comprehensive skill for building AI agents that leverage design systems,
+  context engineering, and Python frameworks like Agentspan. Includes workflows for
+  agent creation, tool integration, and crash resilience.
+keywords:
+- AI agents
+- design systems
+- context engineering
+- Python
+- Agentspan
+- MCP
+difficulty: intermediate
+prerequisites:
+- Python 3.10+
+- basic understanding of AI models
+sources:
+- title: Bridging Design Systems and Code with MCP and AI Agents
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=Gh1E9VgXZWs
+- title: Build Your First AI Agent in Python (Step by Step)
+  channel: Kevin Stratvert
+  link: https://www.youtube.com/watch?v=YKPO2S6j7MM

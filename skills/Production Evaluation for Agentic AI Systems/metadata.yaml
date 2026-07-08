@@ -1,0 +1,19 @@
+name: Production Evaluation for Agentic AI Systems
+description: A comprehensive skill for evaluating agentic AI systems in production
+  environments, focusing on workflow behavior, reliability, and continuous monitoring.
+keywords:
+- agentic AI
+- production evaluation
+- workflow behavior
+- reliability
+- continuous monitoring
+difficulty: advanced
+prerequisites:
+- basic understanding of AI systems
+- knowledge of production infrastructure
+- familiarity with evaluation metrics
+sources:
+- title: Production Evals For Agentic AI Systems - Nishant Gupta, Meta Superintelligence
+    Labs
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=vljxQZfJ9wY

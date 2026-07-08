@@ -1,21 +1,17 @@
 name: Claude Connectors Integration
-description: Skill for connecting Claude AI to external services like Gmail, Google
-  Calendar, and Notion through Claude Connectors and Zapier MCP to automate workflows
-  and enhance productivity.
+description: Learn how to integrate Claude with external services like Gmail, Google
+  Calendar, Notion, and more using Claude Connectors and Zapier MCP.
 keywords:
 - Claude
 - Connectors
-- Zapier
-- Automation
 - Gmail
-- Google Calendar
-- Notion
-difficulty: Intermediate
+- Zapier
+- Integration
+difficulty: intermediate
 prerequisites:
-- Basic understanding of Claude AI
-- Access to Claude Pro account
-- Accounts on services to connect (e.g., Gmail, Notion)
+- basic understanding of Claude
+- familiarity with Gmail and Zapier
 sources:
-- title: How to Use Claude Connectors
+- title: Claude Connectors Tutorial for Beginners
   channel: Kevin Stratvert
-  link: https://www.youtube.com/watch?v=1-Rr3iadlOs
+  link: https://www.youtube.com/watch?v=FpRNId-jeTQ

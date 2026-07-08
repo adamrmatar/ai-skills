@@ -1,0 +1,19 @@
+name: Local AI Model Deployment with Ollama on NVIDIA DGX Spark
+description: Skill for deploying and running local AI models using Ollama on NVIDIA
+  DGX Spark hardware, including model download, inference execution, and integration
+  with coding tools like Claude.
+keywords:
+- local-inference
+- ollama
+- nvidia-dgx
+- gemma
+- model-deployment
+difficulty: intermediate
+prerequisites:
+- basic-linux-commands
+- gpu-hardware-understanding
+- python-programming
+sources:
+- title: 'NVIDIA DGX Spark - AI Supercomputer: First Impressions'
+  channel: codebasics
+  link: https://www.youtube.com/watch?v=FW8bCjhl3zE

@@ -1,0 +1,20 @@
+name: Local AI Model Deployment
+description: A comprehensive skill for deploying and utilizing local AI models as
+  a resilient alternative to cloud-based AI services. Covers runtime setup, model
+  selection, hardware matching, quantization, and practical applications.
+keywords:
+- local AI
+- model deployment
+- Ollama
+- LM Studio
+- quantization
+- offline AI
+difficulty: intermediate
+prerequisites:
+- basic command line knowledge
+- understanding of AI models
+- familiarity with hardware specifications
+sources:
+- title: Claude Fable 5 is BANNED. What to do?
+  channel: Greg Isenberg
+  link: https://www.youtube.com/watch?v=bdhUBBACglw

@@ -1,0 +1,19 @@
+name: Multiplayer AI Collaboration with Pods
+description: Implement flocking algorithm principles (local separation, distant attraction,
+  alignment) to coordinate AI agents and humans in collaborative workflows using shared
+  state pods.
+keywords:
+- multiplayer AI
+- flocking algorithm
+- agent collaboration
+- shared state
+- pod architecture
+difficulty: advanced
+prerequisites:
+- Understanding of autonomous agent systems
+- Experience with collaborative workflows
+- Familiarity with state management systems
+sources:
+- title: Agents & the $40M Bet on Multiplayer AI
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=NsLPju6TZVc

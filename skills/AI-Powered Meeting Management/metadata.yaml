@@ -1,0 +1,17 @@
+name: AI-Powered Meeting Management
+description: Skill for managing meetings end-to-end using AI assistance, including
+  pre-meeting preparation, real-time meeting support, and post-meeting follow-ups.
+keywords:
+- meeting management
+- AI assistant
+- agenda preparation
+- follow-up automation
+difficulty: intermediate
+prerequisites:
+- calendar integration
+- natural language processing
+- task automation
+sources:
+- title: How AI Makes Meetings Smarter
+  channel: AI Agents Podcast
+  link: https://www.youtube.com/watch?v=zyt2qqxoQRM

@@ -1,0 +1,18 @@
+name: AI Pair Programming Assistance
+description: A skill enabling AI agents to assist developers in coding tasks, from
+  code generation to debugging and optimization, while maintaining human oversight.
+keywords:
+- AI pair programming
+- code generation
+- debugging
+- code review
+- optimization
+difficulty: intermediate
+prerequisites:
+- Basic understanding of programming concepts
+- Familiarity with common programming languages
+- Knowledge of debugging techniques
+sources:
+- title: What Is AI Pair Programming? AI Coding Tools for Developers
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=MTmhgIVhpag

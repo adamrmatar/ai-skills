@@ -1,140 +1,140 @@
 ---
-description: Skill for connecting Claude AI to external services like Gmail, Google Calendar, and Notion through Claude Connectors and Zapier MCP to automate workflows and enhance productivity.
+description: Learn how to integrate Claude with external services like Gmail, Google Calendar, Notion, and more using Claude Connectors and Zapier MCP.
 globs: *
 ---
 
 # Claude Connectors Integration
 
-# Claude Connectors Integration Skill
-
 ## Overview
-This skill enables you to connect Claude to external services for enhanced automation capabilities. See [Core Concepts](references/core_concepts.md) for foundational knowledge.
+Claude Connectors allow you to integrate Claude with various external services such as Gmail, Google Calendar, Notion, and more. This skill will guide you through the process of setting up and using these connectors, as well as extending Claude's capabilities using Zapier MCP.
 
 ## Step-by-Step Workflow
-1. **Access Connectors Menu**
-   - Click profile icon → Customize → Connectors
+1. **Open Claude and Access Connectors**: Navigate to the Customize pane and click on Connectors.
+2. **Add a New Connector**: Click the plus icon to add a new connector and browse the available services.
+3. **Connect to Gmail**: Select Gmail from the list, grant necessary permissions, and complete the setup.
+4. **Test the Connection**: Use Claude to review your inbox and identify high-priority emails.
+5. **Extend Functionality with Zapier MCP**: Create a Zapier account, connect Claude to Zapier, and add additional apps.
+6. **Perform Advanced Actions**: Use Zapier to send emails directly from Claude.
 
-2. **Select Service to Connect**
-   - Choose from available options (Gmail, Calendar, etc.)
-   - For extended options, select Zapier MCP
-
-3. **Authenticate Service**
-   - Follow OAuth flow for each service
-   - Example Gmail auth prompt:
-     ```
-     [Gmail Authentication]
-     Please log in to your Google account to continue
-     Allow Claude to:
-     [✓] Read your emails
-     [✓] Send emails on your behalf
-     ```
-
-4. **Verify Connection**
-   - Test with simple query: "Are there any unread emails?"
-
-5. **Begin Automation**
-   - Use natural language prompts to interact with connected services
-   - Sample prompt template:
-     ```
-     "Draft a professional response to [email subject] that includes:
-     - Acknowledgement of their message
-     - Answer to their question about [topic]
-     - Availability for follow-up next week"
-     ```
+## Code/Prompt Snippets
+```plaintext
+Prompt: review my inbox and tell me if there are any high-priority emails that require my attention.
+Prompt: draft a response to Patti.
+Prompt: send a response to Patti, letting her know that we'll discuss the delivery issue in tomorrow's meeting.
+```
 
 ## Best Practices
-- Start with read-only permissions before granting write access
-- Use specific date ranges in calendar queries ("this week" vs "recently")
-- For Zapier, pre-configure common workflows in your Zapier account
+- **Grant Minimal Permissions**: Only grant the permissions necessary for the tasks you want Claude to perform.
+- **Regularly Review Actions**: Check the history of actions taken by Claude to ensure they align with your expectations.
 
 ## Common Pitfalls
-1. **Over-permissioning**: Granting full access when only read is needed
-   - Fix: Adjust permissions in service settings
-2. **Vague Queries**: "Check my emails" is less effective than "Show unread emails from boss"
-3. **Zapier Timeouts**: Complex automations may exceed execution windows
-   - Solution: Break into smaller Zaps
+- **Overlooking Permissions**: Granting too many permissions can lead to unintended actions.
+- **Ignoring Action History**: Failing to review the history of actions can result in unnoticed errors.
 
-## Validation Steps
-1. Test basic retrieval ("Show my next meeting")
-2. Verify action commands ("Schedule a meeting")
-3. Check error handling for:
-   - Invalid queries
-   - Service outages
-   - Permission errors
+## Validation and Testing
+1. **Verify Email Draft**: Check your Gmail drafts to confirm that Claude has created the expected draft.
+2. **Confirm Email Sent**: Verify in Gmail that the email sent by Claude through Zapier has been delivered.
 
-For detailed implementation examples, see [Practical Guide](references/practical_guide.md).
+For more detailed information, refer to the [Core Concepts](references/core_concepts.md), [Practical Guide](references/practical_guide.md), and [Code Examples](references/code_examples.md).
 
 
 # Supporting Documentation
 
+## Code Examples
+
+# Code Examples
+
+## Prompt Templates
+```plaintext
+Prompt: review my inbox and tell me if there are any high-priority emails that require my attention.
+Prompt: draft a response to Patti.
+Prompt: send a response to Patti, letting her know that we'll discuss the delivery issue in tomorrow's meeting.
+```
+
+## Connecting Claude to Zapier
+```plaintext
+Prompt: Connect Claude to Zapier.
+Prompt: Allow Claude to access Zapier.
+```
+
+## Adding Apps in Zapier
+```plaintext
+Prompt: Add Gmail to Zapier.
+Prompt: Select All Tools and connect.
+```
+
+## Performing Actions
+```plaintext
+Prompt: Send a response to Patti, letting her know that we'll discuss the delivery issue in tomorrow's meeting.
+```
+
+## Best Practices
+- **Minimal Permissions**: Only grant the permissions necessary for the tasks you want Claude to perform.
+- **Regular Reviews**: Regularly review the actions taken by Claude to ensure they align with your expectations.
+
+## Common Pitfalls
+- **Over-Permissioning**: Granting too many permissions can lead to unintended actions.
+- **Ignoring History**: Failing to review the history of actions can result in unnoticed errors.
+
+For more detailed information, refer to the [Core Concepts](references/core_concepts.md) and [Practical Guide](references/practical_guide.md).
+
 ## Core Concepts
 
-# Core Concepts of Claude Connectors
+# Core Concepts
 
-Claude Connectors are integration tools that allow Claude AI to interact with external services like email clients, calendars, and productivity apps. This enables Claude to perform actions like reading emails, scheduling events, or managing tasks directly within your conversations.
+## Introduction to Claude Connectors
+Claude Connectors are tools that allow Claude to interact with various external services such as Gmail, Google Calendar, Notion, and more. These connectors enable Claude to perform tasks like reading emails, summarizing threads, drafting responses, and more.
 
-Key capabilities include:
-- **Service Integration**: Connect to popular services like Gmail, Google Calendar, Notion
-- **Data Access**: Read and summarize information from connected accounts
-- **Action Automation**: Perform actions like drafting emails or creating calendar events
-- **Extended Reach**: Through Zapier MCP, access 9,000+ additional apps
+## Types of Connectors
+There are over 200 different services available through Claude Connectors. Some of the most popular include Canva, Microsoft 365, Figma, Notion, Gmail, and Google Drive.
 
-Architecture:
-1. Authentication layer handles OAuth with services
-2. Permission system controls data access levels
-3. API translation layer converts between Claude's interface and service APIs
+## Permissions and Security
+By default, Claude has access to read-only tools. For actions that modify your account, such as creating an email draft, you'll need to grant explicit permission. It's important to review and adjust these settings as needed.
 
-Security features include:
-- Token-based authentication
-- Session-limited access
-- Explicit user permissions for each action
+## Extending Functionality with Zapier MCP
+Zapier MCP allows Claude to connect to thousands of additional apps and perform more complex actions. This includes sending emails directly, which is not possible with the native Gmail connector.
 
-Common use cases:
-- Email triage and response drafting
-- Calendar management
-- Task synchronization across platforms
-- Data retrieval from connected apps
+## Best Practices
+- **Minimal Permissions**: Only grant the permissions necessary for the tasks you want Claude to perform.
+- **Regular Reviews**: Regularly review the actions taken by Claude to ensure they align with your expectations.
+
+## Common Pitfalls
+- **Over-Permissioning**: Granting too many permissions can lead to unintended actions.
+- **Ignoring History**: Failing to review the history of actions can result in unnoticed errors.
+
+For more detailed information, refer to the [Practical Guide](references/practical_guide.md) and [Code Examples](references/code_examples.md).
 
 ## Practical Guide
 
-# Practical Guide to Using Claude Connectors
+# Practical Guide
 
-## Initial Setup
-1. Ensure you have a Claude Pro account (required for connectors)
-2. Navigate to Claude's web interface
-3. Click your profile icon → 'Customize' → 'Connectors'
+## Setting Up Claude Connectors
+1. **Accessing Connectors**: Open Claude, navigate to the Customize pane, and click on Connectors.
+2. **Adding a Connector**: Click the plus icon to add a new connector and browse the available services.
+3. **Connecting to Gmail**: Select Gmail, grant necessary permissions, and complete the setup.
 
-## Connecting Services
-For Gmail:
-1. Select 'Gmail' from available connectors
-2. Authenticate with your Google account
-3. Set permission levels (read-only, compose, etc.)
-4. Confirm connection
+## Testing the Connection
+1. **Reviewing Inbox**: Use Claude to review your inbox and identify high-priority emails.
+2. **Drafting Responses**: Ask Claude to draft a response to a specific email.
 
-For Zapier MCP:
-1. Select 'Zapier' connector
-2. Authenticate with Zapier account
-3. Configure desired app connections
-4. Set up trigger-action pairs as needed
+## Extending Functionality with Zapier MCP
+1. **Creating a Zapier Account**: Sign up for a free Zapier account.
+2. **Connecting Claude to Zapier**: Use the provided prompt to connect Claude to Zapier.
+3. **Adding Apps**: Connect additional apps like Gmail to extend Claude's capabilities.
 
-## Usage Patterns
-**Email Management:**
-- "Show me unread emails from [sender]"
-- "Draft a response to email [subject] saying [message]"
+## Performing Advanced Actions
+1. **Sending Emails**: Use Zapier to send emails directly from Claude.
+2. **Reviewing Actions**: Check the history of actions taken by Claude to ensure they align with your expectations.
 
-**Calendar Operations:**
-- "Do I have meetings scheduled with [person] this week?"
-- "Schedule a 30-minute meeting with [person] on [date]"
+## Best Practices
+- **Minimal Permissions**: Only grant the permissions necessary for the tasks you want Claude to perform.
+- **Regular Reviews**: Regularly review the actions taken by Claude to ensure they align with your expectations.
 
-**Notion Integration:**
-- "Create a new page in [workspace] with title [title]"
-- "Summarize the key points from [Notion page]"
+## Common Pitfalls
+- **Over-Permissioning**: Granting too many permissions can lead to unintended actions.
+- **Ignoring History**: Failing to review the history of actions can result in unnoticed errors.
 
-## Maintenance
-- Regularly review connected services
-- Audit permissions quarterly
-- Disconnect unused integrations
-- Monitor API usage limits
+For more detailed information, refer to the [Core Concepts](references/core_concepts.md) and [Code Examples](references/code_examples.md).
 
 ## Sources
 
@@ -142,4 +142,4 @@ For Zapier MCP:
 
 The following curated videos were synthesized to create this skill:
 
-1. **[How to Use Claude Connectors](https://www.youtube.com/watch?v=1-Rr3iadlOs)** by Kevin Stratvert
+1. **[Claude Connectors Tutorial for Beginners](https://www.youtube.com/watch?v=FpRNId-jeTQ)** by Kevin Stratvert

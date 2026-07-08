@@ -1,0 +1,20 @@
+name: GLM_5.2_Integration_and_Usage
+description: Learn how to integrate and effectively use GLM 5.2, an open-source local
+  AI model, with tools like Cursor, OpenRouter, and Codex for cost-efficient and high-performance
+  AI workflows.
+keywords:
+- GLM 5.2
+- local AI
+- OpenRouter
+- Cursor
+- Codex
+- model chaining
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI models
+- familiarity with API keys
+- basic coding skills
+sources:
+- title: 'GLM 5.2: What you need to know'
+  channel: Greg Isenberg
+  link: https://www.youtube.com/watch?v=xa-9O5cDm3c

@@ -1,0 +1,20 @@
+name: AI Agent Governance
+description: A comprehensive skill for implementing governance, controls, and best
+  practices for deploying AI agents in enterprise environments. This skill covers
+  identity management, input/output controls, auditability, FinOps, and human-in-the-loop
+  strategies.
+keywords:
+- AI governance
+- enterprise AI
+- agent controls
+- auditability
+- FinOps
+difficulty: advanced
+prerequisites:
+- basic AI concepts
+- enterprise security fundamentals
+- FinOps basics
+sources:
+- title: 'Autonomous Agents at Work: From OpenClaw Hype to Enterprise Reality'
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=_p_xjaf7XFw

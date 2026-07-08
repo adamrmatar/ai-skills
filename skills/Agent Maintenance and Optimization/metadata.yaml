@@ -1,0 +1,19 @@
+name: Agent Maintenance and Optimization
+description: A systematic approach to maintaining and optimizing AI agents by focusing
+  on harness (workbench) design, tool pruning, and continuous adaptation to model
+  improvements and workflow changes.
+keywords:
+- agent maintenance
+- harness design
+- tool pruning
+- model adaptation
+- workflow optimization
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI agents
+- Familiarity with prompt engineering
+- Experience with workflow analysis
+sources:
+- title: Don't build more AI agents until you watch this
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=BOXK2XFLA-E

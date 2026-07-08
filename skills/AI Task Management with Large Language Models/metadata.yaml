@@ -1,0 +1,20 @@
+name: AI Task Management with Large Language Models
+description: Skill for effectively delegating complex, high-value tasks to large language
+  models (LLMs) by properly scoping work, preparing data inputs, and reviewing outputs
+  at scale.
+keywords:
+- task delegation
+- LLM workflow
+- AI project management
+- prompt engineering
+- data preparation
+difficulty: advanced
+prerequisites:
+- Basic prompt engineering
+- Experience with API-based LLMs
+- Data preparation skills
+- Project scoping ability
+sources:
+- title: The Doing Got Cheap. Now What? | Claude Fable 5 Changes Work
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=2w_vwQVvFmc

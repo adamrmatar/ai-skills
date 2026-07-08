@@ -1,0 +1,19 @@
+name: AI Model Orchestration with Fugu Ultra
+description: This skill enables you to effectively orchestrate multiple AI models
+  using Fugu Ultra, a multi-agent system that dynamically coordinates and routes tasks
+  to different frontier models like GPT, Gemini, and Opus. Learn how to set up, execute,
+  and validate tasks using Fugu Ultra for optimal performance.
+keywords:
+- AI orchestration
+- Fugu Ultra
+- multi-agent systems
+- model coordination
+- task routing
+difficulty: intermediate
+prerequisites:
+- Basic understanding of APIs
+- Familiarity with AI models like GPT and Opus
+sources:
+- title: I Battle Tested Sakana Fugu's Fable Killer
+  channel: Nate Herk | AI Automation
+  link: https://www.youtube.com/watch?v=GpSqBjW6hR4

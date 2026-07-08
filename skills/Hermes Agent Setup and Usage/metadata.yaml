@@ -1,0 +1,19 @@
+name: Hermes Agent Setup and Usage
+description: A comprehensive guide to setting up and using the Hermes AI Agent locally
+  on your machine, including Telegram integration, skill management, and cron job
+  setup.
+keywords:
+- Hermes Agent
+- AI Agent
+- Telegram Integration
+- Cron Jobs
+- Local Setup
+difficulty: Beginner
+prerequisites:
+- Basic understanding of AI agents
+- Telegram account
+- Google account for API key
+sources:
+- title: 'Hermes Agent Tutorial: How to Setup & Use Open Source AI Agent for Beginners'
+  channel: AI Master
+  link: https://www.youtube.com/watch?v=uSdVgSY7ryU
