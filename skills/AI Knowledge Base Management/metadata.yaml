@@ -1,0 +1,17 @@
+name: AI Knowledge Base Management
+description: Learn how to create, manage, and utilize AI knowledge bases for search,
+  learning, and training purposes.
+keywords:
+- AI knowledge base
+- LLM
+- search
+- learning
+- training
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI and LLMs
+- Familiarity with document processing
+sources:
+- title: How AI Knowledge Bases Work
+  channel: AI Agents Podcast
+  link: https://www.youtube.com/watch?v=VnGQMs3DWfQ

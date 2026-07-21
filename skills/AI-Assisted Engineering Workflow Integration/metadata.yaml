@@ -1,0 +1,18 @@
+name: AI-Assisted Engineering Workflow Integration
+description: This skill enables you to integrate AI agents into engineering workflows
+  effectively, ensuring human oversight, accountability, and high-quality decision-making.
+keywords:
+- AI integration
+- engineering workflow
+- accountability
+- human oversight
+- decision-making
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with engineering workflows
+sources:
+- title: "\"The engineer of the future is the person who is able to choose what is\
+    \ worth doing.\" \u2014\_Addy Osmani"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=n97BCfyFIvw

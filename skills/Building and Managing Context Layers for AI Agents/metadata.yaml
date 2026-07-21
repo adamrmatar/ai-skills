@@ -1,0 +1,19 @@
+name: Building and Managing Context Layers for AI Agents
+description: This skill teaches AI agents how to build, manage, and utilize context
+  layers to enhance performance and accuracy in business environments. It covers core
+  concepts, workflows, best practices, and validation steps.
+keywords:
+- context layer
+- AI agents
+- business context
+- context engineering
+- domain skills
+difficulty: advanced
+prerequisites:
+- basic understanding of AI agents
+- familiarity with business systems
+sources:
+- title: "WTF Is the Context Layer? The Missing Infrastructure for Production Agents\
+    \ \u2014 Prukalpa Sankar"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=8G_1-3IO4ZQ

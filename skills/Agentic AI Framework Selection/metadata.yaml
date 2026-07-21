@@ -1,0 +1,19 @@
+name: Agentic AI Framework Selection
+description: A comprehensive skill for selecting the appropriate agentic AI framework
+  based on the type of system you aim to build, including linear workflows, autonomous
+  agents, role-based systems, production orchestration, and rapid prototyping.
+keywords:
+- agentic AI
+- framework selection
+- AI workflows
+- multi-agent systems
+- production orchestration
+- rapid prototyping
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI systems
+- familiarity with AI frameworks
+sources:
+- title: 'Agentic AI Frameworks Explained: Workflows, Multi-Agent, & Production'
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=ZVPlLaehjLk

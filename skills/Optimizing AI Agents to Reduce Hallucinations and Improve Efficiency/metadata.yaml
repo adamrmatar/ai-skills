@@ -1,0 +1,25 @@
+name: Optimizing AI Agents to Reduce Hallucinations and Improve Efficiency
+description: 'This skill teaches AI agents how to optimize their performance by reducing
+  hallucinations, minimizing token waste, and improving accuracy through five key
+  techniques: semantic tool selection, GraphRAG, multi-agent validation, neuro-symbolic
+  guardians, and runtime guardians.'
+keywords:
+- AI optimization
+- hallucination reduction
+- token efficiency
+- semantic tool selection
+- GraphRAG
+- multi-agent validation
+- neuro-symbolic guardians
+- runtime guardians
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with Python
+- knowledge of vector databases
+- experience with structured query languages
+sources:
+- title: 'Stop AI Agent Hallucinations: 5 Techniques + Production Patterns - Elizabeth
+    Fuentes, AWS'
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=vJukHCIv7Ck

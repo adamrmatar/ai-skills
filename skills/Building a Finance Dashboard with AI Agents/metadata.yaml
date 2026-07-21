@@ -1,0 +1,20 @@
+name: Building a Finance Dashboard with AI Agents
+description: Learn how to create a finance dashboard that tracks market activity,
+  funding rounds, IPOs, and trends using AI agents. This skill covers the setup, workflow,
+  and best practices for building and maintaining a self-tuning, automated finance
+  dashboard.
+keywords:
+- finance dashboard
+- AI agents
+- IPO tracking
+- market trends
+- Hyper Agent
+difficulty: intermediate
+prerequisites:
+- basic knowledge of AI agents
+- familiarity with finance concepts
+- experience with automation tools
+sources:
+- title: How I Track Crazy Tech IPOs
+  channel: Matt Wolfe
+  link: https://www.youtube.com/watch?v=ptlZzbtzdfE

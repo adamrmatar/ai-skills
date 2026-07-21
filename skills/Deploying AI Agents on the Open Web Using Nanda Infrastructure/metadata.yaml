@@ -1,0 +1,18 @@
+name: Deploying AI Agents on the Open Web Using Nanda Infrastructure
+description: Learn how to deploy and manage AI agents on the open web using Nanda's
+  open infrastructure, including discovery, commerce, and coordination layers.
+keywords:
+- AI agents
+- Nanda
+- open web
+- discovery
+- commerce
+- coordination
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with cloud hosting
+sources:
+- title: The Agentic Web and the Bazaar Era of AI - Ramesh Raskar, MIT Media Lab
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=sum9DgexFRQ

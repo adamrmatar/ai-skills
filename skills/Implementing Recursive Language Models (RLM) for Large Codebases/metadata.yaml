@@ -1,0 +1,21 @@
+name: Implementing Recursive Language Models (RLM) for Large Codebases
+description: This skill teaches you how to implement Recursive Language Models (RLM)
+  to manage and analyze large codebases effectively. It includes externalizing context
+  management, curating relevant code chunks, and using recursive queries to enhance
+  understanding and reasoning over structured code data.
+keywords:
+- RLM
+- codebases
+- context management
+- recursive queries
+- structured data
+difficulty: advanced
+prerequisites:
+- basic understanding of language models
+- familiarity with codebase structures
+- experience with Python
+sources:
+- title: 'RLM: Recursive Language Models for Large Codebases - Shashi, Superagentic
+    AI'
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=8oyalrfwgjw

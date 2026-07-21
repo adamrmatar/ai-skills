@@ -1,0 +1,19 @@
+name: Sales Automation with AI Second Brain
+description: Automate sales processes using an AI-powered second brain system, integrating
+  CRM, sales intelligence, and personalized dashboards to streamline lead generation,
+  call prep, CRM updates, follow-ups, and analytics.
+keywords:
+- sales automation
+- AI second brain
+- CRM integration
+- sales intelligence
+- personalized dashboards
+difficulty: intermediate
+prerequisites:
+- basic understanding of CRM systems
+- familiarity with AI tools like Claude
+- basic knowledge of sales processes
+sources:
+- title: This Claude Second Brain Setup Will Change How You Do Sales Forever
+  channel: Ben AI
+  link: https://www.youtube.com/watch?v=d7VPnW1KsgA

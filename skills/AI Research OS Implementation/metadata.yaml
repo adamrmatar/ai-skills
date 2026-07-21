@@ -1,0 +1,22 @@
+name: AI Research OS Implementation
+description: A comprehensive system for transforming personal research notes and external
+  sources into a queryable, evolving knowledge base using AI agents and file-based
+  indexing.
+keywords:
+- knowledge management
+- second brain
+- research assistant
+- vector database alternative
+- obsidian integration
+- personal wiki
+difficulty: advanced
+prerequisites:
+- Basic Python knowledge
+- Familiarity with markdown
+- Experience with CLI tools
+- Understanding of RAG concepts
+sources:
+- title: "Turn 10,994 Notes Into Memory - Paul Iusztin, Decoding AI & Louis-Fran\xE7\
+    ois Bouchard, Towards AI"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=ZRM_TfEZcIo

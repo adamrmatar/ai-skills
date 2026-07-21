@@ -1,0 +1,18 @@
+name: AI Agent Workflow Integration
+description: A comprehensive skill for integrating AI agents into development workflows
+  using CLI, custom agents, and guardrails to scale productivity.
+keywords:
+- AI workflow
+- CLI
+- custom agents
+- guardrails
+- scaling
+difficulty: intermediate
+prerequisites:
+- Basic CLI knowledge
+- Understanding of AI tools like GitHub Copilot or Claude
+sources:
+- title: "From Writing Code to Designing Systems: How the Developer Role is Changing\
+    \ \u2014\_Chris Noring, Microsoft"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=GdvKNwMcfd0

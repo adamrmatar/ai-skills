@@ -1,0 +1,19 @@
+name: Implementing Advanced Voice Interaction Models
+description: This skill enables you to implement and optimize advanced voice interaction
+  models like GPT Live, leveraging full-duplex architecture for continuous, natural
+  conversations. It includes best practices for integrating voice-first AI into workflows,
+  handling interruptions, and delegating tasks to background models.
+keywords:
+- voice interaction
+- full-duplex
+- GPT Live
+- continuous conversation
+- AI delegation
+difficulty: advanced
+prerequisites:
+- basic understanding of AI models
+- familiarity with voice-to-text and text-to-speech systems
+sources:
+- title: How the 4 New Models Released This Week Will Change How You Work
+  channel: 'The AI Daily Brief: Artificial Intelligence News'
+  link: https://www.youtube.com/watch?v=ZX9dXdAL5IU

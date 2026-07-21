@@ -1,0 +1,24 @@
+name: Designing and Implementing Secure Agent Sandboxes
+description: This skill provides a comprehensive guide for designing and implementing
+  secure agent sandboxes, focusing on running untrusted code securely and reliably
+  at scale. It covers core concepts, detailed workflows, best practices, common pitfalls,
+  and validation steps.
+keywords:
+- sandbox
+- security
+- microVM
+- container
+- virtualization
+- persistence
+- orchestration
+difficulty: advanced
+prerequisites:
+- Basic understanding of Linux system calls
+- Familiarity with containerization (e.g., Docker)
+- Knowledge of virtualization concepts
+- Experience with cloud infrastructure
+sources:
+- title: "From fork() to Fleet: Designing an Agent Sandbox Cloud \u2014 Abhishek Bhardwaj,\
+    \ OpenAI"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=OqM67QG_Ikk

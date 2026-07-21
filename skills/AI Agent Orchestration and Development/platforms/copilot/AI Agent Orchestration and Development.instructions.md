@@ -1,0 +1,201 @@
+# Copilot Instructions: Ai Agent Orchestration And Development
+Description: A comprehensive skill for AI agents to orchestrate tasks, manage workflows, and develop solutions using advanced AI models like Claude, GPT, and Open Claw. This skill emphasizes pushing AI models to their limits, leveraging natural language interfaces, and optimizing workflows for efficiency.
+
+# AI Agent Orchestration and Development
+
+## Overview
+
+This skill focuses on leveraging advanced AI models like Claude, GPT, and Open Claw to orchestrate tasks, manage workflows, and develop solutions efficiently. The core idea is to push AI models to their limits by using natural language interfaces and optimizing workflows for maximum efficiency. For more details on core concepts, refer to [Core Concepts](references/core_concepts.md).
+
+## Step-by-Step Workflow
+
+1. **Set Up Your Environment**: Ensure you have the necessary tools installed, including Open Claw, tmux, and any relevant AI model APIs. For a detailed guide, see [Practical Guide](references/practical_guide.md).
+2. **Define Your Task**: Clearly describe the task you want the AI to perform. Use natural language to ensure the AI understands the context and requirements.
+3. **Orchestrate Agents**: Use Open Claw to manage multiple agents in parallel. This allows for efficient task distribution and execution. Refer to [Code Examples](references/code_examples.md) for sample scripts.
+4. **Monitor and Debug**: Continuously monitor the progress of your tasks. Use tools like tmux for parallelization and debugging. For common pitfalls and best practices, see [Common Pitfalls](references/common_pitfalls.md).
+5. **Validate and Test**: Ensure the output meets the desired criteria. Use validation scripts and manual checks to verify the results.
+
+## Code Snippets and Prompt Templates
+
+```bash
+# Example prompt for task definition
+prompt = "Fix the skeptic agent by reviewing the latest PR and ensuring all tests pass."
+
+# Sample tmux command for parallelization
+tmux new-session -d -s my_session 'command_to_run'
+```
+
+For more examples, refer to [Code Examples](references/code_examples.md).
+
+## Best Practices and Common Pitfalls
+
+- **Best Practices**: Always clearly define tasks using natural language. Use parallelization tools like tmux to manage multiple agents efficiently.
+- **Common Pitfalls**: Avoid vague task descriptions. Ensure proper monitoring and debugging to catch issues early. For detailed examples, see [Common Pitfalls](references/common_pitfalls.md).
+
+## Validation and Testing
+
+- **Validation Steps**: Run validation scripts to check the output. Manually review critical results to ensure accuracy.
+- **Testing Steps**: Use staging environments to test new workflows before deploying them to production.
+
+## Reconciliation of Sources
+
+Both transcripts emphasize the importance of pushing AI models to their limits and using natural language interfaces. The first transcript focuses on the evolution of AI models and their capabilities, while the second provides practical insights into setting up and managing workflows using Open Claw and tmux. These insights are integrated into the workflow and best practices sections.
+
+## Reference Guides
+
+### Code Examples
+
+# Code Examples
+
+## Task Definition
+
+Define tasks using natural language to ensure the AI understands the context and requirements. Example:
+
+```bash
+prompt = "Fix the skeptic agent by reviewing the latest PR and ensuring all tests pass."
+```
+
+## Parallelization with tmux
+
+Use tmux to manage multiple agents in parallel. Sample commands:
+
+```bash
+tmux new-session -d -s my_session 'command_to_run'
+```
+
+## Orchestration with Open Claw
+
+Use Open Claw to orchestrate tasks and manage workflows. Example:
+
+```bash
+open_claw --task "Review PRs and ensure all tests pass" --agents 5
+```
+
+## Validation Scripts
+
+Run validation scripts to check the output. Example:
+
+```bash
+python validate_output.py --file output.txt
+```
+
+## Staging Environments
+
+Use staging environments to test new workflows before deploying them to production. Example:
+
+```bash
+open_claw --task "Test new workflow" --staging
+```
+
+### Common Pitfalls
+
+# Common Pitfalls
+
+## Vague Task Descriptions
+
+Avoid vague task descriptions. Clearly define tasks using natural language to ensure the AI understands the context and requirements. Example:
+
+```bash
+# Bad
+prompt = "Fix the agent."
+
+# Good
+prompt = "Fix the skeptic agent by reviewing the latest PR and ensuring all tests pass."
+```
+
+## Lack of Monitoring
+
+Continuously monitor the progress of your tasks. Use tools like tmux for parallelization and debugging. Example:
+
+```bash
+tmux attach-session -t my_session
+```
+
+## Insufficient Validation
+
+Ensure the output meets the desired criteria. Use validation scripts and manual checks to verify the results. Example:
+
+```bash
+python validate_output.py --file output.txt
+```
+
+## Ignoring Staging Environments
+
+Use staging environments to test new workflows before deploying them to production. Example:
+
+```bash
+open_claw --task "Test new workflow" --staging
+```
+
+## Overlooking Parallelization
+
+Leverage parallelization tools like tmux to manage multiple agents efficiently. Example:
+
+```bash
+tmux new-session -d -s my_session 'command_to_run'
+```
+
+### Core Concepts
+
+# Core Concepts
+
+## Evolution of AI Models
+
+The evolution of AI models like Sonnet 3.5, Opus 4.5, and Mythos has significantly impacted how we approach software development. These models have transitioned from simple tool calls to complex orchestration tasks, enabling end-to-end task completion and efficient workflow management.
+
+## Natural Language Interfaces
+
+Natural language interfaces have become a cornerstone of AI interaction. They allow users to describe tasks in plain language, making it easier for AI models to understand and execute complex workflows. This shift has reduced the need for traditional coding interfaces and opened up new possibilities for automation.
+
+## Workflow Optimization
+
+Optimizing workflows involves leveraging tools like tmux and Open Claw to manage multiple agents in parallel. This approach ensures efficient task distribution and execution, reducing the time and effort required to complete complex projects.
+
+## Orchestration
+
+Orchestration refers to the coordination of multiple AI agents to achieve a common goal. This involves defining tasks, managing agents, and monitoring progress to ensure successful task completion. Effective orchestration requires a deep understanding of AI capabilities and workflow management techniques.
+
+### Practical Guide
+
+# Practical Guide
+
+## Setting Up Your Environment
+
+To get started with AI orchestration, ensure you have the necessary tools installed. This includes Open Claw, tmux, and any relevant AI model APIs. Follow these steps:
+
+1. **Install Open Claw**: Download and install Open Claw from the official repository.
+2. **Set Up tmux**: Install tmux and configure it for parallel task management.
+3. **Configure AI APIs**: Obtain API keys for the AI models you plan to use and configure them in your environment.
+
+## Defining Tasks
+
+Clearly define the tasks you want the AI to perform. Use natural language to ensure the AI understands the context and requirements. For example:
+
+```bash
+prompt = "Fix the skeptic agent by reviewing the latest PR and ensuring all tests pass."
+```
+
+## Managing Agents
+
+Use Open Claw to manage multiple agents in parallel. This allows for efficient task distribution and execution. Sample commands:
+
+```bash
+tmux new-session -d -s my_session 'command_to_run'
+```
+
+## Monitoring and Debugging
+
+Continuously monitor the progress of your tasks. Use tools like tmux for parallelization and debugging. For common pitfalls and best practices, see [Common Pitfalls](references/common_pitfalls.md).
+
+## Validation and Testing
+
+Ensure the output meets the desired criteria. Use validation scripts and manual checks to verify the results. Use staging environments to test new workflows before deploying them to production.
+
+### Sources
+
+# Video Sources
+
+The following curated videos were synthesized to create this skill:
+
+1. **[Everything we knew about software has changed — Theo Browne, @t3dotgg ​](https://www.youtube.com/watch?v=xUnRQ9vLXxo)** by AI Engineer
+2. **[Develop at Idea Velocity - Jeffrey Lee-Chan, Snapchat](https://www.youtube.com/watch?v=9arM9b7JgOo)** by AI Engineer

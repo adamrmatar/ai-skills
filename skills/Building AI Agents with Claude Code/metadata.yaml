@@ -1,0 +1,17 @@
+name: Building AI Agents with Claude Code
+description: A comprehensive skill for creating and managing AI agents using Claude
+  Code, enabling automation, context engineering, and iterative improvement.
+keywords:
+- AI Agents
+- Claude Code
+- Automation
+- Context Engineering
+- Iterative Improvement
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI models
+- Familiarity with Claude Chat
+sources:
+- title: Claude Code for Non-Coders (6 Hour Course)
+  channel: Nate Herk | AI Automation
+  link: https://www.youtube.com/watch?v=jdbOVepEtUE

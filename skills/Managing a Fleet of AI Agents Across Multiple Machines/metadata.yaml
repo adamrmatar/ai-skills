@@ -1,0 +1,20 @@
+name: Managing a Fleet of AI Agents Across Multiple Machines
+description: Learn how to effectively manage a fleet of AI agents across multiple
+  machines by implementing a hierarchical structure, maintaining state in files, and
+  using a centralized review gateway.
+keywords:
+- AI agents
+- multi-machine management
+- hierarchical structure
+- state management
+- review gateway
+difficulty: advanced
+prerequisites:
+- basic knowledge of AI agents
+- familiarity with CLI tools
+- understanding of file-based state management
+sources:
+- title: I Run a Fleet of AI Agents Across Three Machines. Here's What Broke. - Kyle
+    Jaejun Lee, KRAFTON
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=4kYl2_mqmnQ

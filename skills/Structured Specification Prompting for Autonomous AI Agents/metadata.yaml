@@ -1,0 +1,18 @@
+name: Structured Specification Prompting for Autonomous AI Agents
+description: Learn how to create structured specifications that enable AI agents to
+  autonomously complete complex tasks like generating PowerPoint decks with high accuracy
+  and efficiency.
+keywords:
+- structured specification
+- autonomous AI
+- prompting
+- productivity
+difficulty: intermediate
+prerequisites:
+- basic prompting
+- task decomposition
+sources:
+- title: 'The AI skill nobody talks about (and it isn''t prompting) #AI #prompting
+    #productivity #tech'
+  channel: AI News & Strategy Daily | Nate B Jones
+  link: https://www.youtube.com/watch?v=gROqcBXoz_c

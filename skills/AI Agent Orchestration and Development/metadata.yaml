@@ -1,0 +1,23 @@
+name: AI Agent Orchestration and Development
+description: A comprehensive skill for AI agents to orchestrate tasks, manage workflows,
+  and develop solutions using advanced AI models like Claude, GPT, and Open Claw.
+  This skill emphasizes pushing AI models to their limits, leveraging natural language
+  interfaces, and optimizing workflows for efficiency.
+keywords:
+- AI Orchestration
+- Workflow Management
+- Natural Language Interfaces
+- Model Optimization
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI models
+- Familiarity with terminal commands
+- Experience with workflow automation
+sources:
+- title: "Everything we knew about software has changed \u2014 Theo Browne, @t3dotgg\
+    \ \u200B"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=xUnRQ9vLXxo
+- title: Develop at Idea Velocity - Jeffrey Lee-Chan, Snapchat
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=9arM9b7JgOo

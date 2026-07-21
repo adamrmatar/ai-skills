@@ -1,0 +1,18 @@
+name: AI-Driven Software Development Workflow
+description: A comprehensive skill for AI agents to assist in software development
+  workflows, including planning, specification, implementation, and code review.
+keywords:
+- software development
+- AI agent
+- specification
+- implementation
+- code review
+difficulty: intermediate
+prerequisites:
+- Basic understanding of software development
+- Familiarity with AI agent workflows
+- Knowledge of GitHub and issue tracking
+sources:
+- title: New Skills! v1.1 brings /wayfinder, /research, /implement, /to-spec, /to-tickets
+  channel: Matt Pocock
+  link: https://www.youtube.com/watch?v=A8mokin_YOs
