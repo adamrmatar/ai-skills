@@ -1,0 +1,19 @@
+name: AI Integration and Optimization
+description: A comprehensive skill for integrating and optimizing AI agents using
+  Microsoft Foundry, focusing on knowledge grounding, retrieval systems, and agent
+  optimization.
+keywords:
+- AI integration
+- knowledge grounding
+- retrieval systems
+- agent optimization
+- Microsoft Foundry
+difficulty: advanced
+prerequisites:
+- basic understanding of AI models
+- familiarity with Microsoft Foundry
+sources:
+- title: "On AI and Knowledge \u2014 Pablo Castro, Distinguished Engineer & CVP for\
+    \ AI Knowledge, Microsoft"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=RGSFUqzqErE

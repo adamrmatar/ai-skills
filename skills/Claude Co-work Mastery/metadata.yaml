@@ -1,0 +1,19 @@
+name: Claude Co-work Mastery
+description: A comprehensive skill for mastering Claude Co-work, including setup,
+  file management, persistent memory, connectors, skills creation, and scheduled tasks.
+keywords:
+- Claude Co-work
+- AI workflow
+- file management
+- persistent memory
+- connectors
+- skills creation
+- scheduled tasks
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI tools
+- familiarity with Claude Chat
+sources:
+- title: Learn 80% of Claude Cowork in Under 20 Minutes
+  channel: Jeff Su
+  link: https://www.youtube.com/watch?v=z9rdrNrkvDY

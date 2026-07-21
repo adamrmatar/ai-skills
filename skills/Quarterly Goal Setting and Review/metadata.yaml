@@ -1,0 +1,17 @@
+name: Quarterly Goal Setting and Review
+description: This skill enables an AI agent to assist users in setting and reviewing
+  quarterly goals, breaking down yearly objectives into manageable quarterly chunks,
+  and ensuring consistent progress tracking.
+keywords:
+- goal setting
+- quarterly review
+- productivity
+- task management
+difficulty: intermediate
+prerequisites:
+- basic understanding of task management
+- familiarity with productivity systems
+sources:
+- title: Why Yearly Goals Don't Work (And What We Do Instead)
+  channel: The AI Productivity Podcast
+  link: https://www.youtube.com/watch?v=Rl_66ytl-vc

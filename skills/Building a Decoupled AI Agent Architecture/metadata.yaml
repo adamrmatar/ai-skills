@@ -1,0 +1,19 @@
+name: Building a Decoupled AI Agent Architecture
+description: This skill teaches you how to design and implement a decoupled AI agent
+  architecture with a focus on the execution layer, ensuring durability, observability,
+  and flexibility.
+keywords:
+- AI agent architecture
+- execution layer
+- decoupling
+- durability
+- observability
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agents
+- familiarity with workflows and pipelines
+sources:
+- title: "Your agent architecture has a half-life of 6 months \u2014 Dan Farrelly,\
+    \ CTO, Inngest"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=X1kp-ABIIxQ

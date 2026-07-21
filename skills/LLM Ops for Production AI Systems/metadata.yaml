@@ -1,0 +1,20 @@
+name: LLM Ops for Production AI Systems
+description: A comprehensive skill for managing and operating large language models
+  (LLMs) in production environments, focusing on prompt management, data flow, evaluation,
+  monitoring, cost management, and security.
+keywords:
+- LLM Ops
+- Generative AI
+- Production
+- Prompt Management
+- Monitoring
+- Cost Management
+difficulty: intermediate
+prerequisites:
+- Basic understanding of MLOps
+- Familiarity with LLMs
+sources:
+- title: 'MLOps vs LLMOps: What Actually Changes in Production #MLOps #LLMOps #GenerativeAI
+    #GenAI'
+  channel: Practical GenAI
+  link: https://www.youtube.com/watch?v=vH77Oj2MSOU

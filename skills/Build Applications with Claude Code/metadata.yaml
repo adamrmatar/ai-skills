@@ -1,0 +1,19 @@
+name: Build Applications with Claude Code
+description: Learn how to configure and use Claude Code for free to build modular,
+  scalable applications. This skill covers setup, best practices, and workflow optimization
+  for AI-assisted development.
+keywords:
+- Claude Code
+- AI-assisted development
+- modular applications
+- OpenRouter
+- free AI models
+difficulty: intermediate
+prerequisites:
+- basic programming knowledge
+- familiarity with VS Code
+- understanding of API keys
+sources:
+- title: Claude Code Is Now 100% Free - Here's How
+  channel: Hasan Aboul Hasan
+  link: https://www.youtube.com/watch?v=t0Mesp118l4

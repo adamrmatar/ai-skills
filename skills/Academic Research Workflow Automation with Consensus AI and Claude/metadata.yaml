@@ -1,0 +1,20 @@
+name: Academic Research Workflow Automation with Consensus AI and Claude
+description: This skill enables you to automate academic research workflows by integrating
+  Consensus AI with Claude. It includes connecting Consensus AI, uploading and creating
+  custom skills, and executing complex research tasks such as literature reviews,
+  grant research, and identifying research gaps.
+keywords:
+- academic research
+- Consensus AI
+- Claude
+- workflow automation
+- literature review
+- grant research
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI tools
+- familiarity with academic research processes
+sources:
+- title: "This Changes Academic AI Forever\u2026 And No One\u2019s Talking About It"
+  channel: Andy Stapleton
+  link: https://www.youtube.com/watch?v=6bIVA0CrZhw
