@@ -1,0 +1,18 @@
+name: AI Collaboration Tools Integration
+description: This skill enables an AI agent to effectively integrate and utilize AI
+  collaboration tools like Claude Code and Claude Tag within team environments, enhancing
+  productivity and automating routine tasks.
+keywords:
+- AI collaboration
+- Claude Code
+- Claude Tag
+- team productivity
+- automation
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI tools
+- familiarity with team collaboration platforms
+sources:
+- title: Simon Willison in conversation with Cat Wu & Thariq Shihipar, Anthropic
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=uU5Gv2h8-9g

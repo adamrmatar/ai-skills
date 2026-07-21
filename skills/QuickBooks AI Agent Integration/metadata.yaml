@@ -1,0 +1,21 @@
+name: QuickBooks AI Agent Integration
+description: A comprehensive skill for integrating and utilizing QuickBooks AI agents
+  to automate accounting, tax optimization, payment processing, lead management, and
+  project management tasks.
+keywords:
+- QuickBooks
+- AI agents
+- accounting automation
+- tax optimization
+- payment processing
+- lead management
+- project management
+difficulty: intermediate
+prerequisites:
+- Basic understanding of QuickBooks Online
+- Familiarity with accounting principles
+- Access to QuickBooks Online account
+sources:
+- title: QuickBooks AI Agents Tutorial (2026)
+  channel: Kevin Stratvert
+  link: https://www.youtube.com/watch?v=SkyuPXxp_pY

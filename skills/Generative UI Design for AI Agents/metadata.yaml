@@ -1,0 +1,19 @@
+name: Generative UI Design for AI Agents
+description: A skill for designing and implementing Generative UI layers that bridge
+  AI model outputs and human-friendly interfaces, ensuring seamless, scalable, and
+  user-centric experiences.
+keywords:
+- Generative UI
+- UX Design
+- AI Agents
+- Streaming
+- BFF
+difficulty: intermediate
+prerequisites:
+- Basic understanding of AI models
+- Familiarity with UI/UX design principles
+sources:
+- title: 'Agent Output Is Not UX: Rendering Layer Your LLM Pipeline Is Missing - Bala
+    Ramdoss, Amazon Lens'
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=maTp79FD9gI

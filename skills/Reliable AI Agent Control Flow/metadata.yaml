@@ -1,0 +1,18 @@
+name: Reliable AI Agent Control Flow
+description: Design and implement a reliable control flow for AI agents by leveraging
+  state machines and harness engineering to ensure predictable, cost-effective, and
+  efficient execution of multi-step workflows.
+keywords:
+- control flow
+- state machine
+- harness engineering
+- reliability
+- AI agent
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI models
+- familiarity with state machines
+sources:
+- title: Don't Let the LLM Drive - Ornella Bahidika & Joel Allou, Microsoft
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=m24UKZomm7k

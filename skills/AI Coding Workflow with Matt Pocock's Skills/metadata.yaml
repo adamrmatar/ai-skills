@@ -1,0 +1,19 @@
+name: AI Coding Workflow with Matt Pocock's Skills
+description: A comprehensive guide to setting up and using Matt Pocock's AI coding
+  skills repository for efficient and effective code development. This skill covers
+  installation, configuration, and the main workflow from idea to implementation.
+keywords:
+- AI coding
+- Matt Pocock
+- skills repository
+- workflow
+- implementation
+difficulty: intermediate
+prerequisites:
+- Basic knowledge of Node.js
+- Familiarity with command line interfaces
+- Understanding of AI agents
+sources:
+- title: 'mattpocock/skills: A complete AI Coding workflow, end-to-end'
+  channel: Matt Pocock
+  link: https://www.youtube.com/watch?v=M6mYodf0dJM

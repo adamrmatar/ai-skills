@@ -1,0 +1,19 @@
+name: Handling Complex Documents in RAG Systems
+description: This skill teaches you how to effectively manage and process complex
+  document sets in Retrieval-Augmented Generation (RAG) systems, ensuring accurate
+  and contextually relevant responses.
+keywords:
+- RAG
+- complex documents
+- vector databases
+- clarification loops
+- document management
+difficulty: intermediate
+prerequisites:
+- basic understanding of RAG architecture
+- familiarity with vector databases
+- basic knowledge of LLMs
+sources:
+- title: Why RAG Solutions Fail with Complex Documents & Vector Databases
+  channel: IBM Technology
+  link: https://www.youtube.com/watch?v=xc63tFIIfeA

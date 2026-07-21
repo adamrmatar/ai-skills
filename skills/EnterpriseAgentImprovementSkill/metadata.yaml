@@ -1,0 +1,21 @@
+name: EnterpriseAgentImprovementSkill
+description: A skill to improve enterprise AI agents by addressing ambiguity, staleness,
+  and preference issues through structured knowledge bases, context lifecycle management,
+  and feedback loops.
+keywords:
+- enterprise
+- AI agent
+- ambiguity
+- staleness
+- preference
+- context lifecycle
+- feedback loop
+difficulty: advanced
+prerequisites:
+- basic_ai_agent_knowledge
+- data_management
+- machine_learning
+sources:
+- title: Enterprise Agents Have a Structure Problem - Ishita Daga, Tesla
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=B8l81jhvHbI

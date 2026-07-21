@@ -1,0 +1,23 @@
+name: Processing Unstructured Physical Data with AI Agents
+description: This skill enables AI agents to efficiently process and analyze unstructured
+  physical data (e.g., video recordings, sensor data, robot telemetry) using data
+  harnesses, Pydantic schemas, and execution engines. It covers data modeling, distributed
+  computing, and incremental updates to handle large-scale, complex datasets.
+keywords:
+- unstructured data
+- physical data
+- data harness
+- Pydantic
+- execution engine
+- distributed computing
+difficulty: advanced
+prerequisites:
+- Python programming
+- Understanding of Pydantic
+- Basic knowledge of distributed computing
+- Familiarity with cloud storage (e.g., S3)
+sources:
+- title: 'When Agents Meet Physical Data: The Other Physics of Agent Harnesses - Dmitry
+    Petrov, DataChain'
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=bUJgirn4_yc

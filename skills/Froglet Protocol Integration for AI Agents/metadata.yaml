@@ -1,0 +1,20 @@
+name: Froglet Protocol Integration for AI Agents
+description: This skill enables AI agents to integrate with the Froglet protocol,
+  facilitating discovery, transaction, and receipt verification across organizational
+  boundaries. It focuses on enabling agents to manage budgets, negotiate terms, and
+  execute tasks while maintaining a verifiable chain of receipts.
+keywords:
+- Froglet
+- AI agents
+- workflow automation
+- receipt verification
+- budget management
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI agent frameworks
+- familiarity with Docker
+- basic command-line skills
+sources:
+- title: Agents Need Receipts, Not More Tool Calls - Armanas Povilionis, Alithea Bio
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=Fu45geO3zX8

@@ -1,0 +1,19 @@
+name: AI-Native Workflow Automation
+description: A comprehensive skill for building AI-native organizations using skill
+  files, resolver tables, and company brains to achieve 400x productivity gains.
+keywords:
+- workflow automation
+- skill files
+- resolver tables
+- company brain
+- AI-native
+- context engineering
+difficulty: advanced
+prerequisites:
+- Basic understanding of AI agents
+- Familiarity with markdown and coding
+- Experience with organizational workflows
+sources:
+- title: "The New Physics of Business \u2014\_Garry Tan, Y Combinator"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=eBUyTS7SzV4

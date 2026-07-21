@@ -1,0 +1,19 @@
+name: AI Agent Evaluation Pipeline
+description: A comprehensive skill for building and running evaluation pipelines for
+  AI agents, focusing on offline and online evaluations, LM judges, and continuous
+  improvement.
+keywords:
+- AI agent evaluation
+- LM judge
+- offline evaluation
+- online evaluation
+- continuous learning
+difficulty: advanced
+prerequisites:
+- AI agent development
+- machine learning evaluation
+- prompt engineering
+sources:
+- title: Build Evals That Actually Matter - Nick Ung, Lyft
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=3z2uT5aDx_Y

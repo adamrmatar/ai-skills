@@ -1,0 +1,21 @@
+name: AI Research Automation
+description: A skill enabling AI agents to autonomously conduct machine learning research,
+  implement ideas from papers/community, optimize models under constraints, and contribute
+  high-quality submissions to research challenges.
+keywords:
+- auto-research
+- model-optimization
+- parameter-golf
+- research-automation
+- ml-engineering
+difficulty: advanced
+prerequisites:
+- machine-learning-fundamentals
+- python-programming
+- research-paper-analysis
+- experiment-design
+sources:
+- title: "An AI Agent Became the #1 Contributor in OpenAI's Hiring Challenge \u2014\
+    \ Zhengyao Jiang, Weco"
+  channel: AI Engineer
+  link: https://www.youtube.com/watch?v=iCj_ATyThvc

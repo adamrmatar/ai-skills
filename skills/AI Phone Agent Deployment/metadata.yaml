@@ -1,0 +1,16 @@
+name: AI Phone Agent Deployment
+description: Deploy an AI phone agent to handle customer inquiries efficiently, reducing
+  wait times and improving customer satisfaction.
+keywords:
+- AI phone agent
+- customer support
+- automation
+- voice chatbot
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI chatbots
+- access to a phone agent platform
+sources:
+- title: How AI Phone Agents Work
+  channel: AI Agents Podcast
+  link: https://www.youtube.com/watch?v=6FBSqsS4Z4A
