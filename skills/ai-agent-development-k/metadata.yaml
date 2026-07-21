@@ -1,0 +1,18 @@
+name: ai-agent-development-k
+description: A comprehensive skill for developing AI agents, focusing on observability,
+  domain modeling, and practical implementation.
+keywords:
+- AI agent
+- observability
+- domain modeling
+- TypeScript
+- Grill Me
+difficulty: intermediate
+prerequisites:
+- TypeScript
+- AI agent basics
+- domain-driven design
+sources:
+- title: 'LIVE: Watch me build a brand-new project from scratch'
+  channel: Matt Pocock
+  link: https://www.youtube.com/watch?v=K-mA3MZ_EzU

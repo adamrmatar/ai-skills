@@ -1,0 +1,20 @@
+name: Logistic_Regression_Binary_Classification
+description: A comprehensive skill for implementing logistic regression to solve binary
+  classification problems, including data preprocessing, model training, evaluation,
+  and interpretation.
+keywords:
+- logistic regression
+- binary classification
+- scikit-learn
+- machine learning
+- sigmoid function
+difficulty: intermediate
+prerequisites:
+- basic Python
+- understanding of machine learning concepts
+- familiarity with scikit-learn
+sources:
+- title: "ML MASTERCLASS \u2013 Logistic Regression Simply explained. logistic regression\
+    \ machine learning tutorial"
+  channel: SimplfyTech
+  link: https://www.youtube.com/watch?v=XjmBqYMXe28

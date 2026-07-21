@@ -1,0 +1,20 @@
+name: Agent-Driven Data Platform Migration and Optimization
+description: This skill enables AI agents to migrate and optimize data platforms,
+  focusing on transitioning from human-centric to agent-centric systems. It includes
+  steps for context engineering, query optimization, and handling autonomous agent
+  workloads.
+keywords:
+- data platform
+- agent migration
+- context engineering
+- query optimization
+- autonomous systems
+difficulty: advanced
+prerequisites:
+- basic knowledge of data platforms
+- understanding of AI agents
+- familiarity with SQL and Python
+sources:
+- title: OpenXData Conference
+  channel: MLOps.community
+  link: https://www.youtube.com/watch?v=YInxWv_4N7w

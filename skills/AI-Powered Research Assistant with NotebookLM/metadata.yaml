@@ -1,0 +1,20 @@
+name: AI-Powered Research Assistant with NotebookLM
+description: This skill enables you to use Google's NotebookLM to transform PDFs,
+  notes, websites, and videos into an AI-powered research assistant. You will learn
+  how to summarize content, answer questions, generate mind maps, create AI-generated
+  podcasts, and organize research efficiently.
+keywords:
+- NotebookLM
+- AI research
+- summarization
+- mind maps
+- podcasts
+- content organization
+difficulty: intermediate
+prerequisites:
+- basic understanding of AI tools
+- Google account
+sources:
+- title: Google NotebookLM Tutorial for Beginners
+  channel: Kevin Stratvert
+  link: https://www.youtube.com/watch?v=uSVBfyHBiDU

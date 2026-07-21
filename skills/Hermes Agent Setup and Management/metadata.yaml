@@ -1,0 +1,18 @@
+name: Hermes Agent Setup and Management
+description: A comprehensive skill for setting up and managing Hermes Agent, an open-source
+  AI assistant, including installation, configuration, skill development, and automation.
+keywords:
+- Hermes Agent
+- AI assistant
+- automation
+- skill development
+- self-improving loop
+difficulty: intermediate
+prerequisites:
+- basic terminal usage
+- understanding of Docker
+- GitHub basics
+sources:
+- title: 'Hermes Agent: Zero to Personal AI Assistant (1 Hour Course)'
+  channel: Nate Herk | AI Automation
+  link: https://www.youtube.com/watch?v=gb5TlGw6Uks

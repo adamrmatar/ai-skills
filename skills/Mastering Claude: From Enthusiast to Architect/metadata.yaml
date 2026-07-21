@@ -1,0 +1,20 @@
+name: 'Mastering Claude: From Enthusiast to Architect'
+description: A comprehensive skill guide for mastering Claude AI, covering levels
+  from basic usage to advanced automation and system architecture. This skill provides
+  actionable steps, best practices, and pitfalls to avoid, enabling you to leverage
+  Claude effectively across various workflows.
+keywords:
+- Claude AI
+- automation
+- AI workflows
+- AI architecture
+- AI skill development
+difficulty: intermediate
+prerequisites:
+- Basic familiarity with Claude AI
+- Understanding of AI workflows
+- Basic knowledge of automation tools
+sources:
+- title: Every Level of Claude Explained in 21 Minutes
+  channel: Nate Herk | AI Automation
+  link: https://www.youtube.com/watch?v=ZRb7D6R64hM

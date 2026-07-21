@@ -1,0 +1,17 @@
+name: Claude Cowork System Setup
+description: A comprehensive skill for setting up and managing a Claude Cowork system,
+  enabling persistent memory, context-aware responses, and efficient task management.
+keywords:
+- Claude
+- Cowork
+- AI setup
+- persistent memory
+- task management
+difficulty: intermediate
+prerequisites:
+- Basic understanding of markdown files
+- Familiarity with AI tools like Claude
+sources:
+- title: My Simple Claude Cowork System (for normal people)
+  channel: Jeff Su
+  link: https://www.youtube.com/watch?v=0_dSWLOHKng

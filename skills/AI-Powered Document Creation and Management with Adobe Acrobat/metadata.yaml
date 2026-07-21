@@ -1,0 +1,21 @@
+name: AI-Powered Document Creation and Management with Adobe Acrobat
+description: This skill enables you to leverage Adobe Acrobat's AI capabilities to
+  create, manage, and repurpose documents efficiently. You will learn how to combine
+  multiple file types, generate summaries, create new documents, and repurpose content
+  using AI-driven prompts and templates.
+keywords:
+- Adobe Acrobat
+- document creation
+- AI
+- PDF
+- content repurposing
+- templates
+difficulty: intermediate
+prerequisites:
+- Basic familiarity with Adobe Acrobat
+- Understanding of document formats (PDF, Word, PowerPoint, etc.)
+- Basic knowledge of AI-driven workflows
+sources:
+- title: 'Adobe Acrobat: How to Use AI for Document Creation (2026)'
+  channel: Kevin Stratvert
+  link: https://www.youtube.com/watch?v=1TqhR-MBOvA
